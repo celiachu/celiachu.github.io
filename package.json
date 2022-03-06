@@ -1,16 +1,23 @@
 {
-  "name": "blog-demo",
+  "name": "celiachu.github.io",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+  "directories": {
+    "doc": "docs"
   },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/celiachu/celiachu.github.io.git"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "vuepress": "^1.8.2"
-  }
+  "bugs": {
+    "url": "https://github.com/celiachu/celiachu.github.io/issues"
+  },
+  "homepage": "https://github.com/celiachu/celiachu.github.io#readme"
 }
