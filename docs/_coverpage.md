@@ -2,6 +2,6 @@
 
 # Cliachu
 
-> HOME
+> [HOME](README.md)
 
-* UP
+> [COCOS](cocos/README.md)
