@@ -2,17 +2,16 @@ baseURL: 'https://hugo-ladder.pages.dev'
 title: LADDER
 theme: hugo-theme-ladder
 license: MIT
-licenselink: 'https://github.com/guangzhengli/hugo-theme-ladder/blob/master/LICENSE'
 description: 'A fast, clean Hugo theme'
 homepage: 'https://hugo-ladder.pages.dev'
-defaultContentLanguage: 'en'
+defaultContentLanguage: 'zh'
 googleAnalytics: G-4WXJ5TEK2S
 paginate: 10
 hasCJKLanguage: true
-copyright: "2023 GuangzhengLi All rights reserved"
+copyright: ""
 Author:
-  name: "Guangzheng Li"
-  email: "iguangzhengli@gmail.com"
+  name: "Celia Chu"
+  email: "celiachu2077@gmail.com"
 menu:
   main:
     - name: Blog
@@ -51,15 +50,13 @@ params:
     description: Support me by becoming a sponsor
     buymeaCoffee:
       enable: true
-      url: https://www.buymeacoffee.com/iguangzhengli
+      url: https://www.buymeacoffee.com/celiachu
       buttom_api: https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=iguangzhengli&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff
       qr: https://storage.guangzhengli.com/images/buymeacoffee_sponsors.png
     wechat:
-      enable: true
-      qr: https://storage.guangzhengli.com/images/alipay_sponsors.jpeg
+      enable: false
     alipay:
-      enable: true
-      qr: https://storage.guangzhengli.com/images/weixin_sponsors.jpeg
+      enable: false
   comments:
     giscus:
       enable: true
@@ -79,8 +76,8 @@ params:
       SiteVerificationTag: xxx
     umami:
       enable: true
-      website_id: 2320eaa6-a90b-471c-b6ca-e79dadde8c4c
-      url: https://umami-ochre-nu.vercel.app/hugo-ladder.js
+      website_id: 3f2ade23-d97c-46a8-95db-80ddf979cf49
+      url: https://umami-celiachus-projects.vercel.app/hugo-ladder
   guestbook:
     title: Guestbook
     description: Leave a comment below. It could be anything –- question, appreciation, information, or even humor.
@@ -88,7 +85,7 @@ params:
     - name: GitHub
       pre: >-
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
-      url: 'https://github.com/guangzhengli/hugo-theme-ladder'
+      url: 'https://github.com/celiachu/celiachu.github.io'
     - name: Dashboard
       pre: >-
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-box"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
@@ -121,9 +118,6 @@ languages:
         - name: 留言板
           url: /guestbook
           weight: 4
-        - name: 统计
-          url: https://umami-ochre-nu.vercel.app/share/o3zAba1V/guangzhengli
-          weight: 5
 taxonomies:
   series: series
   tag: tags
