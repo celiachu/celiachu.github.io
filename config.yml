@@ -1,5 +1,5 @@
 baseURL: 'https://celiachu.github.io'
-title: LADDER
+title: CeliachuBlog
 theme: hugo-theme-ladder
 license: MIT
 description: 'A fast, clean Hugo theme'
