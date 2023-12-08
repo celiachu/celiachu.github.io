@@ -8,17 +8,17 @@ defaultContentLanguage: 'zh'
 googleAnalytics: G-4WXJ5TEK2S
 paginate: 10
 hasCJKLanguage: true
-copyright: ""
+copyright: "2017-2023 CeliaChu"
 Author:
   name: "Celia Chu"
-  email: "celiachu2077@gmail.com"
+  email: "celiachu2077@foxmail.com"
 menu:
   main:
     - name: Blog
       url: /blog
       weight: 1
-    - name: Art
-      url: /art
+    - name: WeekLy
+      url: /WeekLy
       weight: 2
     - name: Tags
       url: /tags
@@ -33,8 +33,8 @@ params:
   brand: HOME
   avatarURL: /images/avatar.png
   author: Celiachu
-  authorDescription: A clean, fast hugo theme focused on Reading
-  info: Ladder is a clean, simple but beautiful theme with awesome features
+  authorDescription: 科技与艺术爱好者
+  info: Celiachu的个人博客
   favicon: favicon.ico
   options:
     showDarkMode: true
@@ -75,28 +75,28 @@ languages:
   zh:
     languageName: 中
     author: Ladder 主题
-    authorDescription: 一个美观，快速并且专注于阅读的主题
-    info: 帮助开发者构建一个免费并且漂亮的博客网站，记录自己的思考并且提高自己的影响力
+    authorDescription: 科技与艺术爱好者
+    info: 记录自己的思考并且提高自己的影响力
     guestbook:
       title: 留言板
       description: 您的评论，会让该网站更精彩！
     menu:
       main:
-        - name: 文章
+        - name: 随笔
           url: /blog
           weight: 1
-        - name: 生活
+        - name: 周刊
           url: /art
           weight: 2
         - name: 标签
           url: /tags
           weight: 3
-        - name: 历史
+        - name: 存档
           url: /archives
-          weight: 3
+          weight: 4
         - name: 留言板
           url: /guestbook
-          weight: 4
+          weight: 5
 taxonomies:
   series: series
   tag: tags
