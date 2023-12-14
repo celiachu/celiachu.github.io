@@ -17,18 +17,21 @@ menu:
     - name: Blog
       url: /blog
       weight: 1
+    - name: 周刊
+      url: /weekly
+      weight: 2
     - name: Art
       url: /art
-      weight: 2
+      weight: 3
     - name: Tags
       url: /tags
-      weight: 3
+      weight: 4
     - name: Archive
       url: /archives
-      weight: 4
+      weight: 5
     - name: Guest
       url: /guestbook
-      weight: 5
+      weight: 6
 params:
   brand: HOME
   avatarURL: /images/avatar.png
@@ -43,6 +46,16 @@ params:
     enableMultiLang: true
     showMetaTags: true
   darkModeTheme: data-dark-mode
+  comments:
+    giscus:
+      enable: true
+      repo: celiachu/celiachu.github.io
+      repo_id: R_kgDOK2zS2A
+      category: Announcements
+      category_id: DIC_kwDOK2zS2M4Cbuo5
+      mapping: pathname
+      position: top
+      lang: zh-CN # pick a language from https://github.com/giscus/giscus/tree/main/locales
   sponsors:
     title: Sponsors
     description: Support me by becoming a sponsor
@@ -84,21 +97,24 @@ languages:
       description: 您的评论，会让该网站更精彩！
     menu:
       main:
-        - name: 随笔
+        - name: 文章
           url: /blog
           weight: 1
+        - name: 周刊
+          url: /weekly
+          weight: 2
         - name: 生活
           url: /art
-          weight: 2
+          weight: 3
         - name: 标签
           url: /tags
-          weight: 3
+          weight: 4
         - name: 历史
           url: /archives
-          weight: 4
+          weight: 5
         - name: 留言板
           url: /guestbook
-          weight: 5
+          weight: 6
 taxonomies:
   series: series
   tag: tags
