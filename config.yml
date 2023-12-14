@@ -10,14 +10,14 @@ paginate: 10
 hasCJKLanguage: true
 copyright: "2017-2023 CeliaChu"
 Author:
-  name: "Celia Chu"
+  name: "CeliaChu"
   email: "celiachu2077@foxmail.com"
 menu:
   main:
     - name: Blog
       url: /blog
       weight: 1
-    - name: 周刊
+    - name: Weekly
       url: /weekly
       weight: 2
     - name: Art
@@ -36,9 +36,10 @@ params:
   brand: HOME
   avatarURL: /images/avatar.png
   author: Celiachu
-  authorDescription: 科技爱好者
-  info: 学习不只是积累，而是思考、理解与成长的过程。·
-      [RSS订阅](https://celiachu.github.io/index.xml) 
+  email: "celiachu2077@foxmail.com"
+  authorDescription: Grow together through the exploration of science, the experimentation with coding, and the joy of gaming.
+  info: Learning is not just accumulation, but a process of thinking, understanding, and growing.
+        [*RSS*](https://celiachu.github.io/index.xml)
   favicon: favicon.ico
   options:
     showDarkMode: true
@@ -89,9 +90,10 @@ languages:
   zh:
     languageName: 中
     author: Celiachu
-    authorDescription: 科技爱好者
+    authorDescription: 在科学的探索、编程的尝试和游戏的乐趣中共同成长
+    email: "celiachu2077@foxmail.com"
     info: 学习不只是积累，而是思考、理解与成长的过程。
-      [RSS订阅](https://celiachu.github.io/index.xml) ·
+      [RSS订阅](https://celiachu.github.io/index.xml)
     guestbook:
       title: 留言板
       description: 您的评论，会让该网站更精彩！
