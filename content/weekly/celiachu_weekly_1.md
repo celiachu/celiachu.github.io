@@ -126,20 +126,24 @@ Felix Link Captions 是一个提供AI辅助图片描述服务的工具，旨在�
 ![https://s2.loli.net/2023/12/15/LQ3mKs7Sz86nhvT.png](https://s2.loli.net/2023/12/15/LQ3mKs7Sz86nhvT.png)
 
 - 图床工具流[SM.MS](https://smms.app/) + [PicGo](https://picgo.github.io/PicGo-Doc/zh/)
-    - PicGo不止支持这个SMMS图床
-    
-<aside>
-    PicGo 本体支持如下图床：
-    七牛图床 v1.0
-    腾讯云 COS v4\v5 版本 v1.1 & v1.5.0
-    又拍云 v1.2.0
-    GitHub v1.5.0
-    [SM.MS](http://sm.ms/) V2 v2.3.0-beta.0
-    阿里云 OSS v1.6.0
-    Imgur v1.6.0
-    本体不再增加默认的图床支持。你可以自行开发第三方图床插件。
-</aside>
-    
+  - PicGo不止支持这个SMMS图床
+    > PicGo 本体支持如下图床:
+    > 
+    > 七牛图床 v1.0
+    > 
+    > 腾讯云 COS v4\v5 版本 v1.1 & v1.5.0
+    > 
+    > 又拍云 v1.2.0
+    > 
+    > GitHub v1.5.0
+    > 
+    > [SM.MS](http://sm.ms/) V2 v2.3.0-beta.0
+    > 
+    > 阿里云 OSS v1.6.0
+    > 
+    > imgur v1.6.0
+    > 
+    > 本体不再增加默认的图床支持。你可以自行开发第三方图床插件。
 
 ---
 
