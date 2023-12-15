@@ -11,6 +11,10 @@
   </div>
 
   <section class="blog-content">{{ .Content }}</section>
+  <div class="post-meta">
+    <a href ="{{ .Permalink }}"> <p>{{ i18n "article_permalink"}}{{ .Permalink }}</p> </a>
+    <p>{{ i18n "copyright_notice"}}: ©{{ .Site.Params.copyright }}</p>
+  </div>
 
   {{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
   {{ if and (gt (len $pages) 1) (in $pages . ) }}

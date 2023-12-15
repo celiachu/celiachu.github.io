@@ -8,7 +8,7 @@ defaultContentLanguage: 'zh'
 googleAnalytics: G-4WXJ5TEK2S
 paginate: 10
 hasCJKLanguage: true
-copyright: "2017-2023 CeliaChu"
+copyright: "2023 Celiachu. All rights reserved."
 Author:
   name: "CeliaChu"
   email: "celiachu2077@foxmail.com"
@@ -117,6 +117,7 @@ languages:
         - name: 留言板
           url: /guestbook
           weight: 6
+    copyright: 2023 celiachu. 版权所有。保留一切权利。
 taxonomies:
   series: series
   tag: tags

@@ -33,3 +33,9 @@ other = "相关系列文章推荐"
 [featured_posts]
 one = "推荐阅读"
 other = "推荐阅读"
+
+[article_permalink]
+other = "本文地址: "
+
+[copyright_notice]
+other = "Copyright notice: "
