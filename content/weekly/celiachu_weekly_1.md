@@ -131,9 +131,8 @@ Felix Link Captions 是一个提供AI辅助图片描述服务的工具，旨在�
 - 图床工具流[SM.MS](https://smms.app/) + [PicGo](https://picgo.github.io/PicGo-Doc/zh/)
     - PicGo不止支持这个SMMS图床
     
-    <aside>
-    💡 PicGo 本体支持如下图床：
-    
+<aside>
+    PicGo 本体支持如下图床：
     七牛图床 v1.0
     腾讯云 COS v4\v5 版本 v1.1 & v1.5.0
     又拍云 v1.2.0
@@ -142,8 +141,7 @@ Felix Link Captions 是一个提供AI辅助图片描述服务的工具，旨在�
     阿里云 OSS v1.6.0
     Imgur v1.6.0
     本体不再增加默认的图床支持。你可以自行开发第三方图床插件。
-    
-    </aside>
+</aside>
     
 
 ---
