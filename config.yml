@@ -8,7 +8,7 @@ defaultContentLanguage: 'zh'
 googleAnalytics: G-4WXJ5TEK2S
 paginate: 10
 hasCJKLanguage: true
-copyright: "2023 Celiachu. All rights reserved."
+copyright: " All rights reserved."
 Author:
   name: "CeliaChu"
   email: "celiachu2077@foxmail.com"
@@ -37,7 +37,6 @@ params:
   avatarURL: /images/avatar.png
   author: Celiachu
   email: "celiachu2077@foxmail.com"
-  copyright: "2023 Celiachu. All rights reserved."
   authorDescription: Grow together through the exploration of science, the experimentation with coding, and the joy of gaming.
   info: Learning is not just accumulation, but a process of thinking, understanding, and growing.
         [*RSS*](https://celiachu.github.io/index.xml)
@@ -91,6 +90,7 @@ languages:
   zh:
     languageName: 中
     author: Celiachu
+    copyright: celiachu 版权所有。保留一切权利。
     authorDescription: 在科学的探索、编程的尝试和游戏的乐趣中共同成长
     email: "celiachu2077@foxmail.com"
     info: 学习不只是积累，而是思考、理解与成长的过程。
@@ -118,7 +118,6 @@ languages:
         - name: 留言板
           url: /guestbook
           weight: 6
-    copyright: 2023 celiachu. 版权所有。保留一切权利。
 taxonomies:
   series: series
   tag: tags

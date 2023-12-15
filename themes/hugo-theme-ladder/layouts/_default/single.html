@@ -14,7 +14,7 @@
 
   <div class="post-meta">
     <a href ="{{ .Permalink }}"> <p>{{ i18n "article_permalink"}}{{ .Permalink }}</p> </a>
-    <p>{{ i18n "copyright_notice"}}: ©{{ .Site.Params.copyright }}</p>
+    <p>{{ i18n "copyright_notice"}}: ©{{ now.Year }} {{ .Site.Author.name }} {{ .Site.Copyright }}</p>
   </div>
 
   {{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
