@@ -2,10 +2,7 @@
 {{- if .IsHome -}}{{ $pctx = .Site }}{{- end -}}
 {{- $pages := slice -}}
 {{- if or $.IsHome $.IsSection -}}
-{{- $blogPages := where .Site.RegularPages "blog" -}}
-{{- $weeklyPages := where .Site.RegularPages "weekly" -}}
-{{- $artPages := where .Site.RegularPages "art" -}}
-{{- $pages := union $blogPages $weeklyPages $artPages-}}
+{{- $pages := where .Site.RegularPages ".Section" "in" (slice "blog" "weekly" "art") -}}
 {{- else -}}
 {{- $pages = $pctx.Pages  -}}
 {{- end -}}
