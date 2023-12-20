@@ -2,9 +2,9 @@
 {{- if .IsHome -}}{{ $pctx = .Site }}{{- end -}}
 {{- $pages := slice -}}
 {{- if or $.IsHome $.IsSection -}}
-{{- $pages = (where (where $pctx.RegularPages ".Section" "blog") "Kind" "page")  -}}
+{{- $pages = $pctx.RegularPages  -}}
 {{- else -}}
-{{- $pages = (where (where $pctx.Pages ".Section" "blog") "Kind" "page")  -}}
+{{- $pages = $pctx.Pages  -}}
 {{- end -}}
 {{- $limit := .Site.Config.Services.RSS.Limit -}}
 {{- if ge $limit 1 -}}

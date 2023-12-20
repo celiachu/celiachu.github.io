@@ -12,6 +12,10 @@ copyright: " All rights reserved."
 Author:
   name: "CeliaChu"
   email: "celiachu2077@foxmail.com"
+Config:
+  Services:
+    RSS:
+      Limit: 10
 menu:
   main:
     - name: Blog
