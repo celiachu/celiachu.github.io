@@ -1,4 +1,0 @@
----
-title: "Weekly"
-layout: "weekly"
----
