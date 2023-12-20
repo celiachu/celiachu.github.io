@@ -2,7 +2,7 @@
 {{- if .IsHome -}}{{ $pctx = .Site }}{{- end -}}
 {{- $pages := slice -}}
 {{- if or $.IsHome $.IsSection -}}
-{{- $pages := .Site.RegularPages -}}
+{{- $pages = where .Site.RegularPages ".Section" "in" (slice "blog" "weekly" "art") -}}
 {{- else -}}
 {{- $pages = $pctx.Pages  -}}
 {{- end -}}
