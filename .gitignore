@@ -6,3 +6,4 @@ exampleSite/resources/
 *.lock
 public/
 resources/
+server/
