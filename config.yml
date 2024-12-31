@@ -6,7 +6,8 @@ description: 'A fast, clean Hugo theme'
 homepage: 'https://celiachu.github.io'
 defaultContentLanguage: 'zh'
 googleAnalytics: G-4WXJ5TEK2S
-paginate: 10
+pagination:
+  pagerSize: 10
 hasCJKLanguage: true
 copyright: " All rights reserved."
 Author:
