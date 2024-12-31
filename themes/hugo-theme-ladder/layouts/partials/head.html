@@ -5,15 +5,15 @@
     {{- /* Meta */}}
     <meta charset="utf-8">
     <meta name="description" content="Ladder@{{- with .Description }}{{ . }}{{- else }}{{- if or .IsPage .IsSection}}
-    {{- .Summary | default (printf "%s - %s" .Title  site.Title) }}{{- else }}
-    {{- with site.Params.description }}{{ . }}{{- end }}{{- end }}{{- end -}}">
-    <meta name="author" content="{{ site.Params.author }}">
+    {{- .Summary | default (printf "%s - %s" .Title .Site.Title) }}{{- else }}
+    {{- with .Site.Params.description }}{{ . }}{{- end }}{{- end }}{{- end -}}">
+    <meta name="author" content="{{ .Site.Params.author }}">
     <link rel="canonical" href="{{ if .Params.canonicalURL -}} {{ trim .Params.canonicalURL " " }} {{- else -}} {{ .Permalink }} {{- end }}">
-    {{- if site.Params.analytics.google.SiteVerificationTag }}
-        <meta name="google-site-verification" content="{{ site.Params.analytics.google.SiteVerificationTag }}">
+    {{- if .Site.Params.analytics.google.SiteVerificationTag }}
+        <meta name="google-site-verification" content="{{ .Site.Params.analytics.google.SiteVerificationTag }}">
     {{- end }}
 
-    <link rel="alternate" type="application/rss+xml" href="{{.Site.BaseURL }}/index.xml" title="{{ .Site.Title }}">
+    <link rel="alternate" type="application/rss+xml" href="{{ .Site.BaseURL }}/index.xml" title="{{ .Site.Title }}">
 
     {{ partial "common/analytics.html" . }}
     {{ partial "common/extensions.html" . }}
@@ -22,16 +22,9 @@
 
     <link rel="stylesheet" href="https://cdn.staticfile.org/lxgw-wenkai-webfont/1.6.0/style.css" />
 
-    {{ if .Site.IsServer }}
-    {{ $cssFile := (dict "targetPath" "css/main.css" "enableSourceMap" true ) }}
-    {{ $styles := resources.Get "/scss/app.scss" | toCSS $cssFile }}
-    <link rel="stylesheet" href="{{ $styles.RelPermalink }}" media="screen">
-    {{ else }}
     {{ $cssFile := (dict "targetPath" "css/main.css" ) }}
     {{ $styles := resources.Get "/scss/app.scss" | toCSS $cssFile | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}" crossorigin="anonymous" media="screen" />
-    {{ end }}
-
 
     {{ $highlight := resources.Get "scss/highlight/github-dark.min.css" | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $highlight.RelPermalink }}" />
@@ -40,8 +33,8 @@
     <script src="{{ $highlightjs.RelPermalink }}"></script>
     <script>hljs.highlightAll();</script>
 
-    {{ if .Site.Params.options.showDarkMode -}}
-        {{ $darkModeInit := resources.Get "js/darkmode-init.js" | js.Build | minify -}}
+    {{ if .Site.Params.options.showDarkMode }}
+        {{ $darkModeInit := resources.Get "js/darkmode-init.js" | minify }}
         <script>{{ $darkModeInit.Content | safeJS }}</script>
-    {{ end -}}
+    {{ end }}
 </head>
