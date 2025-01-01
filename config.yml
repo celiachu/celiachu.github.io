@@ -1,6 +1,6 @@
 baseURL: 'https://celiachu.github.io'
 title: CeliachuLife
-theme: hugo-theme-ladder
+theme: yinyang
 license: MIT
 description: 'A fast, clean Hugo theme'
 homepage: 'https://celiachu.github.io'
@@ -10,9 +10,6 @@ pagination:
   pagerSize: 10
 hasCJKLanguage: true
 copyright: " All rights reserved."
-Author:
-  name: "CeliaChu"
-  email: "celiachu2077@foxmail.com"
 Config:
   Services:
     RSS:
@@ -38,6 +35,9 @@ menu:
       url: /guestbook
       weight: 6
 params:
+
+  mainSections: weekly
+  headTitle: CeliachuLife
   brand: HOME
   avatarURL: /images/avatar.png
   author: Celiachu
