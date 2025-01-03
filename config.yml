@@ -1,128 +1,260 @@
-baseURL: 'https://celiachu.github.io'
-title: CeliachuLife
-theme: yinyang
-license: MIT
-description: 'A fast, clean Hugo theme'
-homepage: 'https://celiachu.github.io'
-defaultContentLanguage: 'zh'
-googleAnalytics: G-4WXJ5TEK2S
+# If your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would
+# contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
+baseURL: "https://celiachu.github.io"
+title: NebulaNovaLife
+copyright: "© [PaperMod Contributors](https://github.com/adityatelange/hugo-PaperMod/graphs/contributors)"
 pagination:
-  pagerSize: 10
-hasCJKLanguage: true
-copyright: " All rights reserved."
-Config:
-  Services:
-    RSS:
-      Limit: 10
-menu:
-  main:
-    - name: Blog
-      url: /blog
-      weight: 1
-    - name: Weekly
-      url: /weekly
-      weight: 2
-    - name: Art
-      url: /art
-      weight: 3
-    - name: Tags
-      url: /tags
-      weight: 4
-    - name: Archive
-      url: /archives
-      weight: 5
-    - name: Guest
-      url: /guestbook
-      weight: 6
-params:
+  pagerSize: 5
+theme: hugo-PaperMod
+defaultContentLanguage: 'zh'
 
-  mainSections: weekly
-  headTitle: CeliachuLife
-  brand: HOME
-  avatarURL: /images/avatar.png
-  author: Celiachu
-  email: "celiachu2077@foxmail.com"
-  authorDescription: Grow together through the exploration of science, the experimentation with coding, and the joy of gaming.
-  info: Learning is not just accumulation, but a process of thinking, understanding, and growing.
-        [*RSS*](https://celiachu.github.io/index.xml)
-  favicon: favicon.ico
-  options:
-    showDarkMode: true
-    enableImgZooming: true
-    enableMultiLang: true
-    showMetaTags: true
-  darkModeTheme: data-dark-mode
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+mainsections: ["posts", "papermod", "weekly"]
+
+minify:
+  disableXML: true
+  # minifyOutput: true
+
+languages:
+  en:
+    languageName: "EN"
+    weight: 2
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: Weekly
+          url: /weekly
+          weight: 1
+        - name: Art
+          url: /art
+          weight: 2
+        - name: Tag
+          url: /tags
+          weight: 3
+        - name: Archive
+          url: /archives
+          weight: 4
+        - name: Search
+          url: /search
+          weight: 5
+    params:
+      homeInfoParams:
+        Title: "NebulaNovaLife"
+        Content: "If you don't write, you're just pretending to think. ✍️"
+  zh:
+    languageName: "中"
+    author: "NebulaNova"
+    copyright: "版权所有。保留一切权利。"
+    menu:
+      main:
+        - name: 周刊
+          url: /weekly
+          weight: 1
+        - name: 艺术
+          url: /art
+          weight: 2
+        - name: 标签
+          url: /tags
+          weight: 3
+        - name: 归档
+          url: /archives
+          weight: 4
+        - name: 搜索
+          url: /search
+          weight: 5
+    params:
+      authorDescription: "在科学的探索、编程的尝试和游戏的乐趣中共同成长"
+      email: "celiachu2077@foxmail.com"
+      info: "学习不只是积累，而是思考、理解与成长的过程。\n      [RSS订阅](https://celiachu.github.io/index.xml)"
+      guestbook:
+        title: "留言板"
+        description: "您的评论，会让该网站更精彩！"
+      homeInfoParams:
+        Title: "NebulaNovaLife"
+        Content: |
+          如果你不写作，你只是假装在思考。✍️
+          
+          话一出口，就成谬误，思想一写成文章，就显得浅薄。
+
+    # custom params for each language should be under [langcode].parms - hugo v0.120.0
+    #params:
+    # languageAltTitle: zh
+    #  profileMode:
+    #   enabled: true
+    #    title: PaperMod
+    #   imageUrl: "https://raw.githubusercontent.com/googlefonts/noto-emoji/master/svg/emoji_u1f9d1_1f3fb_200d_1f4bb.svg"
+    #    imageTitle: ProfileMode image
+        # imageWidth: 120
+        # imageHeight: 120
+    #    subtitle: "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
+    #    buttons:
+    #      - name: Blog
+    #        url: posts
+    #      - name: Profile Mode
+    #        url: https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  #description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
+  author: NebulaNova
+  # author: ["Me", "You"] # multiple authors
+
+  featured: true
+  defaultTheme: auto
+  # disableThemeToggle: true
+  ShowShareButtons: true
+  ShowReadingTime: true
+  # disableSpecial1stPost: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
+  # comments: false
+  images: ["static/images/avatar.png"]
+  ShowFeaturedInHome: true     # 在首页显示特色文章
+  ShowFeaturedInArchive: true  # 在归档页显示特色文章
+
+  profileMode:
+    enabled: false
+    title: "NebulaNovaLife"
+    imageUrl: "static/images/avatar.png"
+    imageTitle: "NebulaNova"
+    buttons:
+      - name: Weekly
+        url: /weekly
+      - name: Art
+        url: /art
+      - name: Archive
+        url: /archives
+      - name: Tags
+        url: /tags
+      - name: Search
+        url: /search
+
+  homeInfoParams:
+    Title: "NebulaNovaLife"
+    Content: "If you don't write, you're just pretending to think. ✍️"
+  # 原配置注释
+  # socialIcons:
+  #     - name: github
+  #       title: View Source on Github
+  #       url: "https://github.com/adityatelange/hugo-PaperMod"
+  #     - name: Discord
+  #       title: Join discord community
+  #       url: "https://discord.gg/ahpmTvhVmp"
+  #     - name: X
+  #       title: Share PaperMod on X/Twitter
+  #       url: "https://x.com/intent/tweet/?text=Checkout%20Hugo%20PaperMod%20%E2%9C%A8%0AA%20fast,%20clean,%20responsive%20Hugo%20theme.&url=https://github.com/adityatelange/hugo-PaperMod&hashtags=Hugo,PaperMod"
+  #     - name: KoFi
+  #       title: Buy me a Ko-Fi :)
+  #       url: "https://ko-fi.com/adityatelange"
+
+
+  # label:
+  # iconSVG: '<svg xmlns="http://www.w3.org/2000/svg" height="25" viewBox="0 -960 960 960" fill="currentColor"><path d="M320-240h320v-80H320v80Zm0-160h320v-80H320v80ZM240-80q-33 0-56.5-23.5T160-160v-640q0-33 23.5-56.5T240-880h320l240 240v480q0 33-23.5 56.5T720-80H240Zm280-520v-200H240v640h480v-440H520ZM240-800v200-200 640-640Z"/></svg>'
+  # text: "Home"
+  # icon: icon.png
+  # iconHeight: 35
   comments:
     giscus:
       enable: true
-      repo: celiachu/celiachu.github.io
-      repo_id: R_kgDOK2zS2A
-      category: Announcements
-      category_id: DIC_kwDOK2zS2M4Cbuo5
-      mapping: pathname
-      position: top
-      lang: zh-CN # pick a language from https://github.com/giscus/giscus/tree/main/locales
-  sponsors:
-    title: Sponsors
-    description: Support me by becoming a sponsor
-    buymeaCoffee:
-      enable: true
-      url: https://www.buymeacoffee.com/celiachu
-      buttom_api: https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=iguangzhengli&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff
-      qr: https://storage.guangzhengli.com/images/buymeacoffee_sponsors.png
-    wechat:
-      enable: false
-    alipay:
-      enable: false
+      repo: 'celiachu/celiachu.github.io'
+      repo_id: 'R_kgDOK2zS2A'
+      category: 'Announcements'
+      category_id: 'DIC_kwDOK2zS2M4Cbuo5'
+      mapping: 'pathname'
+      position: 'top'
+      lang: 'zh-CN'
+
   analytics:
     google:
-      SiteVerificationTag: xxx
+      SiteVerificationTag: 'xxx'
     umami:
       enable: true
-      website_id: 3f2ade23-d97c-46a8-95db-80ddf979cf49
-      url: https://umami-celiachus-projects.vercel.app/hugo-ladder
-  guestbook:
-    title: Guestbook
-    description: Leave a comment below. It could be anything –- question, appreciation, information, or even humor.
-  social:
-    - name: GitHub
-      pre: >-
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
-      url: 'https://github.com/celiachu/celiachu.github.io'
-languages:
-  en:
-    languageName: EN
-  zh:
-    languageName: 中
-    author: Celiachu
-    copyright: 版权所有。保留一切权利。
-    authorDescription: 在科学的探索、编程的尝试和游戏的乐趣中共同成长
-    email: "celiachu2077@foxmail.com"
-    info: 学习不只是积累，而是思考、理解与成长的过程。
-      [RSS订阅](https://celiachu.github.io/index.xml)
-    guestbook:
-      title: 留言板
-      description: 您的评论，会让该网站更精彩！
-    menu:
-      main:
-        - name: 文章
-          url: /blog
-          weight: 1
-        - name: 周刊
-          url: /weekly
-          weight: 2
-        - name: 生活
-          url: /art
-          weight: 3
-        - name: 标签
-          url: /tags
-          weight: 4
-        - name: 历史
-          url: /archives
-          weight: 5
-        - name: 留言板
-          url: /guestbook
-          weight: 6
-taxonomies:
-  series: series
-  tag: tags
+      website_id: '3f2ade23-d97c-46a8-95db-80ddf979cf49'
+      url: 'https://umami-celiachus-projects.vercel.app/hugo-ladder'
+
+  assets:
+    disableHLJS: true
+  #     favicon: "<link / abs url>"
+  #     favicon16x16: "<link / abs url>"
+  #     favicon32x32: "<link / abs url>"
+  #     apple_touch_icon: "<link / abs url>"
+  #     safari_pinned_tab: "<link / abs url>"
+
+  # cover:
+  #     hidden: true # hide everywhere but not in structured data
+  #     hiddenInList: true # hide on list pages and home
+  #     hiddenInSingle: true # hide on single page
+
+  # fuseOpts:
+  #     isCaseSensitive: false
+  #     shouldSort: true
+  #     location: 0
+  #     distance: 1000
+  #     threshold: 0.4
+  #     minMatchCharLength: 0
+  #     keys: ["title", "permalink", "summary", "content"]
+
+  socialIcons:
+    - name: email
+      url: "mailto:celiachu2077@foxmail.com"
+    - name: rss
+      url: "/index.xml"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
+
+# privacy:
+#   vimeo:
+#     disabled: false
+#     simple: true
+
+#   twitter:
+#     disabled: false
+#     enableDNT: true
+#     simple: true
+
+#   instagram:
+#     disabled: false
+#     simple: true
+
+#   youtube:
+#     disabled: false
+#     privacyEnhanced: true
+
+services:
+  instagram:
+    disableInlineCSS: true
+  twitter:
+    disableInlineCSS: true
