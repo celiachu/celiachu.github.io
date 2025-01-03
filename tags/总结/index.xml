@@ -1,3 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>总结 on CeliachuLife</title><link>https://celiachu.github.io/tags/%E6%80%BB%E7%BB%93/</link><description>Recent content in 总结 on CeliachuLife</description><generator>Hugo</generator><language>zh</language><copyright>版权所有。保留一切权利。</copyright><lastBuildDate>Tue, 02 Jan 2024 22:00:00 +0800</lastBuildDate><atom:link href="https://celiachu.github.io/tags/%E6%80%BB%E7%BB%93/index.xml" rel="self" type="application/rss+xml"/><item><title>CeliaLifeWeekly - 3 2023年度总结</title><link>https://celiachu.github.io/weekly/celiachu_weekly_3/</link><pubDate>Tue, 02 Jan 2024 22:00:00 +0800</pubDate><guid>https://celiachu.github.io/weekly/celiachu_weekly_3/</guid><description>&lt;h1 id="weekly-3-2023年度总结">Weekly-3 2023年度总结&lt;/h1>
-&lt;p>这周是2023年的最后一周 ，我在这里回顾一下我的2023。&lt;/p>
-&lt;p>年度总结这个东西我很早就想写了，记得去年年底的时候想看看2022干了些啥，零零散散的笔记，屈指可数的朋友圈，我发现我发现找不到我的痕迹，就是我明明已经过了365个日子，但是我就好像抓不到一样，像沙子一样都从手中的缝隙跑掉了。&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>总结 on NebulaNovaLife</title>
+    <link>https://celiachu.github.io/tags/%E6%80%BB%E7%BB%93/</link>
+    <description>Recent content in 总结 on NebulaNovaLife</description>
+    <image>
+      <title>NebulaNovaLife</title>
+      <url>https://celiachu.github.io/static/images/avatar.png</url>
+      <link>https://celiachu.github.io/static/images/avatar.png</link>
+    </image>
+    <generator>Hugo -- 0.140.2</generator>
+    <language>zh</language>
+    <copyright>版权所有。保留一切权利。</copyright>
+    <lastBuildDate>Tue, 02 Jan 2024 22:00:00 +0800</lastBuildDate>
+    <atom:link href="https://celiachu.github.io/tags/%E6%80%BB%E7%BB%93/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CeliaLifeWeekly - 3 2023年度总结</title>
+      <link>https://celiachu.github.io/weekly/celiachu_weekly_3/</link>
+      <pubDate>Tue, 02 Jan 2024 22:00:00 +0800</pubDate>
+      <guid>https://celiachu.github.io/weekly/celiachu_weekly_3/</guid>
+      <description>没有记录的项目和没有记录的人生一样，都会越来越模糊直至忘记。</description>
+    </item>
+  </channel>
+</rss>

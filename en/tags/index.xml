@@ -1,1 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tags on CeliachuLife</title><link>https://celiachu.github.io/en/tags/</link><description>Recent content in Tags on CeliachuLife</description><generator>Hugo</generator><language>en</language><copyright> All rights reserved.</copyright><atom:link href="https://celiachu.github.io/en/tags/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on NebulaNovaLife</title>
+    <link>https://celiachu.github.io/en/tags/</link>
+    <description>Recent content in Tags on NebulaNovaLife</description>
+    <image>
+      <title>NebulaNovaLife</title>
+      <url>https://celiachu.github.io/static/images/avatar.png</url>
+      <link>https://celiachu.github.io/static/images/avatar.png</link>
+    </image>
+    <generator>Hugo -- 0.140.2</generator>
+    <language>en</language>
+    <copyright>PaperMod Contributors</copyright>
+    <atom:link href="https://celiachu.github.io/en/tags/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
