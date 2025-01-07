@@ -1,9 +1,12 @@
 ---
 date: 2024-12-31T08:30:52+08:00
-title: "CeliaLifeWeekly - 9 2024年度总结-云端"
+title: "NebulaNovaLifeWeekly - 9 2024年度总结-云端"
 description: "回顾2024年的生活成长、阅读、音乐、电影及认知方面的收获与感悟。"
 tags: [个人总结, 年度回顾, 生活成长, 阅读, 音乐, 电影, 认知]
 featured: true
+categories: ["周报"]
+series: ["Weekly Report"]
+series_order: 9
 ---
 
 ## 引言
@@ -66,8 +69,7 @@ featured: true
 > 恩格斯说：“宗教是由身感宗教需要并了解群众宗教需要的人们所建立的。”
 > 我们可以得出一个结论：一个宗派流行时间的长短是与他们中国化的程度成正比的。谁的天国入场券卖得便宜，谁就能赢得群众，就能得到统治者的支持。反之，就不能。
 > 到底是民众需要关羽称关羽为伽蓝菩萨，还是当时的传教者为了传教钦定关羽为伽蓝菩萨呢？这我可能得再想想了
-> ![伽蓝殿供奉的关羽](https://i.imgur.com/UZFQ0hZ.jpg)
-> ![壶口瀑布](https://i.imgur.com/Yw05RXI.jpg)、
+> ![伽蓝殿供奉的关羽](https://i.imgur.com/UZFQ0hZ.jpg) > ![壶口瀑布](https://i.imgur.com/Yw05RXI.jpg)、
 > ![博物馆](https://i.imgur.com/MkvFZtW.jpg)
 
 ### 十一月
@@ -88,8 +90,7 @@ featured: true
 跑步的目标是突破半马，这周兴隆湖 8 公里挑战应该就是一个关键节点。
 
 > 「我们的生活都是以秒为单位的像一个贪吃蛇射线一样不回头的过程，每一个点都很重要，每一个点都决定了后面的走向，除非我们的生命可以出现，中途间歇性死亡，后来又复活，那么我们可以把生命分为重要不重要，闪耀或者不闪耀。既然没有间歇性死亡，那么我们的生命，我们的历史就不分，重要，不重要。因为高潮的基础是低潮，低潮也决定了高潮。」
-> ![Imgur](https://i.imgur.com/l8pQ0b9.jpg)
-> ![Imgur](https://i.imgur.com/eEBFkf7.jpg)
+> ![Imgur](https://i.imgur.com/l8pQ0b9.jpg) > ![Imgur](https://i.imgur.com/eEBFkf7.jpg)
 
 ## AI
 

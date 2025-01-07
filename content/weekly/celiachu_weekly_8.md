@@ -1,10 +1,13 @@
 ---
 date: 2024-06-15T08:30:52+08:00
-title: "CeliaLifeWeekly - 8 健身入门小记"
+title: "NebulaNovaLifeWeekly - 8 健身入门小记"
 description: ""
 tags: [健身]
 series: []
 featured: true
+categories: ["周报"]
+series: ["Weekly Report"]
+series_order: 8
 ---
 
 ## Weekly

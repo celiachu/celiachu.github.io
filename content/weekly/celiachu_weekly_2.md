@@ -1,9 +1,12 @@
 ---
 date: 2023-12-25T22:25:38+08:00
-title: "CeliaLifeWeekly - 2 工具困境"
+title: "NebulaNovaLifeWeekly - 2 工具困境"
 description: ""
 tags: [weekly, 收藏]
 series: []
+categories: ["周报"]
+series: ["Weekly Report"]
+series_order: 2
 ---
 
 上一周写了仓鼠收集癖，这一期继续写下我遇到的工具困境。

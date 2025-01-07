@@ -33,45 +33,53 @@ languages:
     menu:
       main:
         - name: Weekly
-          url: /weekly
-          weight: 1
-        - name: Art
-          url: /art
-          weight: 2
-        - name: Tag
-          url: /tags
-          weight: 3
+          url: /series/weekly-report/
+          weight: 10
         - name: Archive
           url: /archives
-          weight: 4
+          weight: 20
+        - name: Art
+          url: /art
+          weight: 30
+        - name: Tag
+          url: /tags
+          weight: 40
         - name: Search
           url: /search
-          weight: 5
+          weight: 50
     params:
       homeInfoParams:
         Title: "NebulaNovaLife"
         Content: "If you don't write, you're just pretending to think. ✍️"
   zh:
     languageName: "中"
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
     author: "NebulaNova"
     copyright: "版权所有。保留一切权利。"
     menu:
       main:
-        - name: 周刊
-          url: /weekly
-          weight: 1
-        - name: 艺术
-          url: /art
-          weight: 2
-        - name: 标签
-          url: /tags
-          weight: 3
+        - name: 周报
+          url: /series/weekly-report/
+          weight: 10
         - name: 归档
           url: /archives
-          weight: 4
+          weight: 20
+        - name: 艺术
+          url: /art
+          weight: 30
+        - name: 标签
+          url: /tags
+          weight: 40
         - name: 搜索
           url: /search
-          weight: 5
+          weight: 50
+        - name: 系列
+          url: /series/
+          weight: 60
+
     params:
       authorDescription: "在科学的探索、编程的尝试和游戏的乐趣中共同成长"
       email: "celiachu2077@foxmail.com"

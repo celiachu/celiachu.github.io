@@ -1,11 +1,14 @@
 ---
 date: 2024-01-02T22:00:00+08:00
-title: "CeliaLifeWeekly - 3 2023年度总结"
+title: "NebulaNovaLifeWeekly - 3 2023年度总结"
 description: "没有记录的项目和没有记录的人生一样，都会越来越模糊直至忘记。"
 tags: [weekly, 总结, 读书分享]
 series: []
 featured: true
 image: "https://s2.loli.net/2024/01/02/1zLqPIMAiHYynsu.png"
+categories: ["周报"]
+series: ["Weekly Report"]
+series_order: 3
 ---
 
 这周是 2023 年的最后一周 ，我在这里回顾一下我的 2023。
@@ -95,7 +98,7 @@ Midjourney 在图片领域应该是一路领跑，但是因为没有生产力需
   - 乍一看是一个成功学噱头的书，但是实际上不是。你开始读了以后就会发现作者不只是在喊口号写鸡汤，他做到了让你产生真正的共鸣。
   - **积极主动、以终为始、要事第一、双赢思维、知彼解己、统合综效、不断更新**
   - 这张经典的不同视角图也是出自于这。
-  ![Untitled](https://s2.loli.net/2024/01/02/gZI4LMAhOEHbRmq.png)
+    ![Untitled](https://s2.loli.net/2024/01/02/gZI4LMAhOEHbRmq.png)
 - 《要把读书当回事》
   - 回想过去坎坎坷坷，但也顺顺当当。
   - 读什么样的书呢？自己专业的书要读，不在话下。自己专业外的也应该“随便翻翻”。知识面越多越好

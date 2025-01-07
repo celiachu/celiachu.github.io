@@ -1,11 +1,13 @@
 ---
 date: 2023-12-15T08:25:38+08:00
-title: "CeliaLifeWeekly - 1 开刊 | 收藏夹谬误"
+title: "NebulaNovaLifeWeekly - 1 开刊 | 收藏夹谬误"
 description: ""
 tags: [weekly, 收藏]
-series: []
 featured: true
 image: "https://s2.loli.net/2023/12/15/T4tdj7pqQlxIwfu.jpg"
+categories: ["周报"]
+series: ["Weekly Report"]
+series_order: 1
 ---
 
 ![cover](https://s2.loli.net/2023/12/15/T4tdj7pqQlxIwfu.jpg)
