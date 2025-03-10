@@ -1,0 +1,17 @@
+/* 覆盖first-entry的样式 */
+.first-entry {
+    min-height: 200px !important;  /* 使用!important确保覆盖主题样式 */
+}
+
+.first-entry .entry-content {
+    margin: 8px 0 !important;
+    white-space: pre-line !important;
+}
+
+.first-entry .entry-footer {
+    margin-top: 8px !important;
+}
+
+.social-icons {
+    margin-top: 14px !important;
+}

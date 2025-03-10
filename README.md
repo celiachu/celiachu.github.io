@@ -1,14 +1,14 @@
-
 ## Celiachu Blog
 
-🎉🎉🎉 Open the browser and enter: https://celiachu.github.io 🎉🎉🎉
+🎉🎉🎉 Open the browser and enter: [https://celiachu.github.io](https://celiachu.github.io) 🎉🎉🎉
 
-## Default 
+## Default
+
 默认配置参数
 
-```
+```markdown
 ---
-date: {{ .Date }}
+date: { { .Date } }
 title: ""
 description: ""
 tags: []
