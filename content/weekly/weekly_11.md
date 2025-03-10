@@ -2,9 +2,13 @@
 date: 2025-03-01T00:25:37+08:00
 title: "习惯降低决策成本-weekly_11"
 description: ""
-tags: []
+categories: ["周报"]
+tags: ["weekly"]
 series: []
+summary: "简单记录一下习惯的重要性"
 featured: true
+series: ["Weekly Report"]
+series_order: 11
 ---
 # 习惯降低决策成本-weekly_11
 
