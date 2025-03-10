@@ -1,6 +1,6 @@
 ---
 date: 2025-03-01T00:25:37+08:00
-title: "习惯降低决策成本-weekly_11"
+title: "NebulaNovaLifeWeekly #10 - 习惯降低决策成本"
 description: ""
 categories: ["周报"]
 tags: ["weekly"]
