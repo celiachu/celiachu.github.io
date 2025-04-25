@@ -1,6 +1,6 @@
 ---
 date: 2024-04-28T09:37:30+08:00
-title: "NebulaNovaLifeWeekly - 6 写在五一之前"
+title: "NebulaNovaLifeWeekly #06｜写在五一之前"
 description: ""
 tags: []
 series: []
@@ -16,9 +16,9 @@ series_order: 6
 
 我逐渐意识到，并不是所有书都需要精读。有的书大致浏览一遍就足以把握作者的主旨，许多时候，大量的篇幅只是在反复阐述同一个观点。例如《原子习惯》，这本书虽然是关于心理学和方法论的，但仅仅细读几页，你就会发现作者倾向于使用大量不可考证的例子来支撑他的观点。尽管这些观点本身没有问题—比如如何养成好习惯和摒弃坏习惯的方法都是易懂的—但实际上并不需要死板地按书上的方法来一一实践。
 
-> the goal of a book isn’t to get to the last page, it’s to expand your thinking.一本书的目标不是读到最后一页，而是扩展你的思维。
+> the goal of a book isn't to get to the last page, it's to expand your thinking.一本书的目标不是读到最后一页，而是扩展你的思维。
 
-[You Are What You Read, Even If You Don’t Always Remember It - Jim Nielsen’s Blog (jim-nielsen.com)](https://blog.jim-nielsen.com/2024/you-are-what-you-read/)
+[You Are What You Read, Even If You Don't Always Remember It - Jim Nielsen's Blog (jim-nielsen.com)](https://blog.jim-nielsen.com/2024/you-are-what-you-read/)
 
 所有被我遗忘的书籍都在无形中塑造了现在的我，尽管我可能已经记不清具体的内容了。这提醒我，每本书都有其价值，不论是立即的启发还是长远的影响。包括不限于书本，我们经历的人和事都无形之中影响我们
 

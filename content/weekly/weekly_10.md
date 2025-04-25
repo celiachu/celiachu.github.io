@@ -1,6 +1,6 @@
 ---
 date: 2025-01-06T10:05:23+08:00
-title: "NebulaNovaLifeWeekly #10 - 2025年第1周周报"
+title: "NebulaNovaLifeWeekly #10｜2025年第1周周报"
 description: ""
 categories: ["周报"]
 tags: ["weekly"]
@@ -10,6 +10,7 @@ featured: true
 series: ["Weekly Report"]
 series_order: 10
 ---
+# 2025年第1周周报（总第10期），记录本周的见闻与思考
 
 ## 本周概览
 
@@ -52,7 +53,7 @@ series_order: 10
 
 那么他们为啥会成为 NPC，是因为人脑的路径依赖，在有限的时间内，我们倾向于采取最简单的思维捷径来处理信息。
 
-> Think about it: the average lifespan of 80 years is just 4000 weeks. You’ve spent many of them already, and a third of what remains will be spent asleep, while most of the rest will be spent working and living. That doesn’t leave you much time to research or think about the things you’ll instinctively offer your opinion on.
+> Think about it: the average lifespan of 80 years is just 4000 weeks. You've spent many of them already, and a third of what remains will be spent asleep, while most of the rest will be spent working and living. That doesn't leave you much time to research or think about the things you'll instinctively offer your opinion on.
 
 80 年的人生只有 4000 周，扣除睡眠和工作时间，留给我们深度思考的时间其实很少。（细想我已经度过了一千三百余周的人生，再次感慨。）
 
@@ -80,7 +81,7 @@ series_order: 10
 >
 > - **评分**: ★★★★★
 
-最近日本的 101 届箱根驿传刚刚成功举办成功，再看这部动漫之前我就老是刷到箱根驿传的片段，跑完兴隆湖以后朋友推荐我去看这部动漫，这时我才知道原来箱根驿传是这么回事。燃，评论区也经常出现一句话：“强风吹拂为什么不出第二季，因为当你看完这部动画再出门跑步的时候就是第二季”
+最近日本的 101 届箱根驿传刚刚成功举办成功，再看这部动漫之前我就老是刷到箱根驿传的片段，跑完兴隆湖以后朋友推荐我去看这部动漫，这时我才知道原来箱根驿传是这么回事。燃，评论区也经常出现一句话："强风吹拂为什么不出第二季，因为当你看完这部动画再出门跑步的时候就是第二季"
 我目前的配速几乎就和王子一样了，体格也和尼古差不多，所以代入感还是很强。
 
 ## 拔牙小记

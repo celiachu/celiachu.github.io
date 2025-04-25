@@ -1,12 +1,12 @@
 ---
-title: "NebulaNovaLifeWeekly #{{ add .File.ContentBaseName 1 }} - {{ dateFormat "2006" .Date }}年第{{ dateFormat "02" .Date }}周周报"
+title: "NebulaNovaLifeWeekly #{{ $base := .File.ContentBaseName }}{{ $num := int (replace $base "weekly_" "") }}{{ add $num 1 }} - {{ dateFormat "2006" .Date }}年第{{ dateFormat "02" .Date }}周周报"
 date: {{ .Date }}
 draft: true
 categories: ["周报"]
 series: ["Weekly Report"]
-series_order: {{ add .File.ContentBaseName 1 }}
+series_order: {{ $num := int (replace .File.ContentBaseName "weekly_" "") }}{{ add $num 1 }}
 tags: ["weekly"]
-summary: "{{ dateFormat "2006" .Date }}年第{{ dateFormat "02" .Date }}周周报（总第{{ add .File.ContentBaseName 1 }}期），记录本周的见闻与思考"
+summary: "{{ dateFormat "2006" .Date }}年第{{ dateFormat "02" .Date }}周周报（总第{{ $num := int (replace .File.ContentBaseName "weekly_" "") }}{{ add $num 1 }}期），记录本周的见闻与思考"
 ---
 
 ## 本周概览

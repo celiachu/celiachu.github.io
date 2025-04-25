@@ -1,6 +1,6 @@
 ---
 date: 2023-12-25T22:25:38+08:00
-title: "NebulaNovaLifeWeekly - 2 工具困境"
+title: "NebulaNovaLifeWeekly #02｜工具困境"
 description: ""
 tags: [weekly, 收藏]
 series: []
