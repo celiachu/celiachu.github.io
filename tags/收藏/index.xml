@@ -9,13 +9,13 @@
       <url>https://celiachu.github.io/static/images/avatar.png</url>
       <link>https://celiachu.github.io/static/images/avatar.png</link>
     </image>
-    <generator>Hugo -- 0.145.0</generator>
+    <generator>Hugo -- 0.146.7</generator>
     <language>zh</language>
     <copyright>版权所有。保留一切权利。</copyright>
     <lastBuildDate>Mon, 25 Dec 2023 22:25:38 +0800</lastBuildDate>
     <atom:link href="https://celiachu.github.io/tags/%E6%94%B6%E8%97%8F/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>NebulaNovaLifeWeekly - 2 工具困境</title>
+      <title>NebulaNovaLifeWeekly #02｜工具困境</title>
       <link>https://celiachu.github.io/weekly/celiachu_weekly_2/</link>
       <pubDate>Mon, 25 Dec 2023 22:25:38 +0800</pubDate>
       <guid>https://celiachu.github.io/weekly/celiachu_weekly_2/</guid>
@@ -52,7 +52,7 @@
 &lt;p&gt;❓&lt;a href=&#34;https://news.ycombinator.com/item?id=37931804&#34;&gt;Ask HN: What&amp;rsquo;s the most beautiful web game you&amp;rsquo;ve seen? | Hacker News&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>NebulaNovaLifeWeekly - 1 开刊 | 收藏夹谬误</title>
+      <title>NebulaNovaLifeWeekly #01｜收藏夹谬误</title>
       <link>https://celiachu.github.io/weekly/celiachu_weekly_1/</link>
       <pubDate>Fri, 15 Dec 2023 08:25:38 +0800</pubDate>
       <guid>https://celiachu.github.io/weekly/celiachu_weekly_1/</guid>
@@ -60,7 +60,7 @@
 &lt;h2 id=&#34;why-为什么写周刊&#34;&gt;Why 为什么写周刊&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://weekly.ursb.me/posts/weekly-1/&#34;&gt;WJ.1: 开刊，为什么写周刊 (ursb.me)&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;最近我阅读了一篇关于编写周刊的文章，这让我反思到自己的博客已经有一段时间没有更新了。尽管我每天都很忙碌，阅读了众多文章，但回想起来，能够清晰记住的内容却寥寥无几。我的笔记和收藏夹里积累了大量的信息，但仍有不少重要内容被遗漏。这种情况激发了我想要更好地整理和管理我的信息流的愿望。&lt;/p&gt;
-&lt;p&gt;在这篇文章中，作者提到他是受到一位&lt;a href=&#34;https://4ark.me/post/weekly-idea.html&#34;&gt;读者文章&lt;/a&gt;的启发才开始编写周刊的。虽然那位读者现在已经暂停更新他的周刊，但我注意到还有一些知名的周刊，如“&lt;a href=&#34;https://www.ruanyifeng.com/blog/2023/12/weekly-issue-281.html&#34;&gt;科技爱好者周刊&lt;/a&gt;”，仍在持续更新中，这给了我很大的启发。&lt;/p&gt;
+&lt;p&gt;在这篇文章中，作者提到他是受到一位&lt;a href=&#34;https://4ark.me/post/weekly-idea.html&#34;&gt;读者文章&lt;/a&gt;的启发才开始编写周刊的。虽然那位读者现在已经暂停更新他的周刊，但我注意到还有一些知名的周刊，如&amp;quot;&lt;a href=&#34;https://www.ruanyifeng.com/blog/2023/12/weekly-issue-281.html&#34;&gt;科技爱好者周刊&lt;/a&gt;&amp;quot;，仍在持续更新中，这给了我很大的启发。&lt;/p&gt;
 &lt;h2 id=&#34;how-如何写周刊&#34;&gt;How 如何写周刊&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://4ark.me/post/weekly-12.html&#34;&gt;周刊第 12 期：每周轮子计划、程序员应该如何写博客&lt;/a&gt;&lt;/p&gt;
 &lt;blockquote&gt;
@@ -80,7 +80,7 @@
 &lt;p&gt;这是一个普遍的问题。想想看，你的微信收藏夹或浮窗里，有多少是收藏了但还未阅读的文章呢？&lt;/p&gt;
 &lt;p&gt;这个&lt;a href=&#34;https://www.zhihu.com/question/295247750&#34;&gt;心理&lt;/a&gt;是普遍的源自于焦虑。&lt;/p&gt;
 &lt;p&gt;许多人在收藏时，并非真的打算阅读。往往是因为文章太长，一时无法完全阅读，所以先行收藏。这种情况下，收藏更像是一种逃避，而非真正的保存。&lt;/p&gt;
-&lt;p&gt;如何克服这种“&lt;strong&gt;收藏夹谬误&lt;/strong&gt;”，&lt;/p&gt;
+&lt;p&gt;如何克服这种&amp;quot;&lt;strong&gt;收藏夹谬误&lt;/strong&gt;&amp;quot;，&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;意识提升&lt;/strong&gt;：首先意识到自己是否有这种倾向，承认仅仅收集而不实际使用信息的行为是不高效的。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;设定目标和限制&lt;/strong&gt;：对收集的内容设定明确的目标和限制。比如，在收藏新信息前先决定如何和何时使用它们。&lt;/li&gt;
@@ -97,7 +97,7 @@
 &lt;p&gt;为此，我选择了 Notion 作为我的主要知识管理工具。Notion 的灵活性和用户友好的界面让它成为理想的选择。它支持多种组织方式，包括数据库、页面链接和标签系统，非常适合处理和整理大量信息。此外，Notion 的跨平台功能也是一个重要优势，它允许我在不同设备上同步和访问数据。&lt;/p&gt;
 &lt;p&gt;虽然还有其他工具如 Obsidian 和 Zotero，但是只用 Notion 举例：&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;多维度标签：为您的网页收藏创建不同类型的标签，比如按主题、内容类型（如文章、视频、工具）、阅读状态（如“待阅读”、“已阅读”）等。这样可以从多个角度快速找到所需的网页。&lt;/li&gt;
+&lt;li&gt;多维度标签：为您的网页收藏创建不同类型的标签，比如按主题、内容类型（如文章、视频、工具）、阅读状态（如&amp;quot;待阅读&amp;quot;、&amp;ldquo;已阅读&amp;rdquo;）等。这样可以从多个角度快速找到所需的网页。&lt;/li&gt;
 &lt;li&gt;优化检索功能：利用 Notion 的强大搜索功能，可以快速地通过关键词、标签甚至内容来查找特定的收藏。这大大提高了查找效率。&lt;/li&gt;
 &lt;li&gt;链接与注释：在 Notion 中保存网页链接时，可以附加个人笔记或摘要。这样即使在没有打开链接的情况下，也能快速回顾网页的主要内容。&lt;/li&gt;
 &lt;/ol&gt;
