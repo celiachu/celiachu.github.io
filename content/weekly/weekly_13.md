@@ -1,15 +1,15 @@
 ---
-title: "NebulaNovaLifeWeekly #14 - 2025年第08周周报"
+title: "NebulaNovaLifeWeekly #13 - 2025年第08周周报"
 date: 2025-05-08T14:00:42+08:00
 draft: false
 featured: true
 categories: ["周报"]
 series: ["Weekly Report"]
-series_order: 14
+series_order: 13
 tags: ["weekly"]
 summary: "2025年第08周周报（总第14期），记录本周的见闻与思考"
 ---
-## NebulaNovaLifeWeekly #14 - 2025年第08周周报
+## NebulaNovaLifeWeekly #13 - 2025年第08周周报
 
 ## 🌤️ 本周关键词
 觉醒｜流程｜自动化｜失眠｜词根｜好奇心｜节奏感｜情感与理性｜输出焦虑｜晨跑
