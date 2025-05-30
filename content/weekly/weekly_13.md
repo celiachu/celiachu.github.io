@@ -7,7 +7,7 @@ categories: ["周报"]
 series: ["Weekly Report"]
 series_order: 13
 tags: ["weekly"]
-summary: "2025年第08周周报（总第14期），记录本周的见闻与思考"
+summary: "2025年第08周周报（总第13期），记录本周的见闻与思考"
 ---
 ## NebulaNovaLifeWeekly #13 - 2025年第08周周报
 
