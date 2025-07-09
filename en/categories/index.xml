@@ -6,12 +6,12 @@
     <description>Recent content in Categories on NebulaNovaLife</description>
     <image>
       <title>NebulaNovaLife</title>
-      <url>https://celiachu.github.io/static/images/avatar.png</url>
-      <link>https://celiachu.github.io/static/images/avatar.png</link>
+      <url>https://celiachu.github.io/images/avatar.png</url>
+      <link>https://celiachu.github.io/images/avatar.png</link>
     </image>
-    <generator>Hugo -- 0.147.7</generator>
+    <generator>Hugo -- 0.148.0</generator>
     <language>en</language>
-    <copyright>PaperMod Contributors</copyright>
+    <copyright>2025 NebulaNova</copyright>
     <atom:link href="https://celiachu.github.io/en/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

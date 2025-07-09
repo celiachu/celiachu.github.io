@@ -2,6 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://celiachu.github.io/blog/</loc>
+    <lastmod>2025-07-09T16:33:26+08:00</lastmod>
+  </url><url>
+    <loc>https://celiachu.github.io/</loc>
+    <lastmod>2025-07-09T16:33:26+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://celiachu.github.io/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://celiachu.github.io/"
+                />
+  </url><url>
+    <loc>https://celiachu.github.io/weekly/</loc>
+    <lastmod>2025-07-09T10:10:22+08:00</lastmod>
+  </url><url>
     <loc>https://celiachu.github.io/categories/</loc>
     <lastmod>2025-06-06T18:15:27+08:00</lastmod>
     <xhtml:link
@@ -13,19 +32,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://celiachu.github.io/categories/"
-                />
-  </url><url>
-    <loc>https://celiachu.github.io/</loc>
-    <lastmod>2025-06-06T18:15:27+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://celiachu.github.io/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://celiachu.github.io/"
                 />
   </url><url>
     <loc>https://celiachu.github.io/weekly/weekly_15/</loc>
@@ -58,9 +64,6 @@
                 />
   </url><url>
     <loc>https://celiachu.github.io/tags/weekly/</loc>
-    <lastmod>2025-06-06T18:15:27+08:00</lastmod>
-  </url><url>
-    <loc>https://celiachu.github.io/weekly/</loc>
     <lastmod>2025-06-06T18:15:27+08:00</lastmod>
   </url><url>
     <loc>https://celiachu.github.io/series/weekly-report/</loc>
@@ -151,11 +154,7 @@
   </url><url>
     <loc>https://celiachu.github.io/art/</loc>
   </url><url>
-    <loc>https://celiachu.github.io/blog/</loc>
-  </url><url>
     <loc>https://celiachu.github.io/art/search/</loc>
-  </url><url>
-    <loc>https://celiachu.github.io/art/search.fr/</loc>
   </url><url>
     <loc>https://celiachu.github.io/sponsors/</loc>
   </url><url>
