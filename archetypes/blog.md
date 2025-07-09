@@ -4,8 +4,10 @@ date: {{ .Date }}
 draft: true
 author: "NebulaNova"
 tags: []
-categories: []
-series: []
+categories: ["Tech", "Testing"]
+series: ["Blog"]
 description: ""
 featured: false
+toc: true
+summary: ""
 ---

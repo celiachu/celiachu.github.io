@@ -2,7 +2,7 @@
 # contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
 baseURL: "https://celiachu.github.io"
 title: NebulaNovaLife
-copyright: "© [PaperMod Contributors](https://github.com/adityatelange/hugo-PaperMod/graphs/contributors)"
+copyright: "© 2025 NebulaNova"
 pagination:
   pagerSize: 5
 theme: hugo-PaperMod
@@ -16,7 +16,7 @@ buildFuture: false
 buildExpired: false
 enableEmoji: true
 pygmentsUseClasses: true
-mainsections: ["posts", "papermod", "weekly"]
+mainsections: ["blog", "weekly", "art"]
 
 minify:
   disableXML: true
@@ -35,6 +35,9 @@ languages:
         - name: Weekly
           url: /series/weekly-report/
           weight: 10
+        - name: Blog
+          url: /blog/
+          weight: 15
         - name: Archive
           url: /archives
           weight: 20
@@ -64,6 +67,9 @@ languages:
         - name: 周报
           url: /series/weekly-report/
           weight: 10
+        - name: 博客
+          url: /blog/
+          weight: 15
         - name: 归档
           url: /archives
           weight: 20
@@ -139,7 +145,7 @@ params:
   ShowPageNums: true
   ShowToc: true
   # comments: false
-  images: ["static/images/avatar.png"]
+  images: ["images/avatar.png"]
   ShowFeaturedInHome: true     # 在首页显示特色文章
   ShowFeaturedInArchive: true  # 在归档页显示特色文章
 
