@@ -9,11 +9,25 @@
       <url>https://celiachu.github.io/images/avatar.png</url>
       <link>https://celiachu.github.io/images/avatar.png</link>
     </image>
-    <generator>Hugo -- 0.148.0</generator>
+    <generator>Hugo -- 0.148.1</generator>
     <language>zh</language>
     <copyright>版权所有。保留一切权利。</copyright>
-    <lastBuildDate>Fri, 06 Jun 2025 18:15:27 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 09 Jul 2025 16:33:26 +0800</lastBuildDate>
     <atom:link href="https://celiachu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>从零实现一个测试框架：Hope 项目实践记录</title>
+      <link>https://celiachu.github.io/blog/reinventing-testing-from-scratch/</link>
+      <pubDate>Wed, 09 Jul 2025 16:33:26 +0800</pubDate>
+      <guid>https://celiachu.github.io/blog/reinventing-testing-from-scratch/</guid>
+      <description>一篇记录如何从零实现 JavaScript 单元测试框架 Hope 的工程实录，涵盖设计动机、模块划分、钩子机制、执行顺序、架构思考等核心内容</description>
+    </item>
+    <item>
+      <title>NebulaNovaLifeWeekly #16 - 2025年第09周周报</title>
+      <link>https://celiachu.github.io/weekly/weekly_16/</link>
+      <pubDate>Wed, 09 Jul 2025 10:10:22 +0800</pubDate>
+      <guid>https://celiachu.github.io/weekly/weekly_16/</guid>
+      <description>2025年第09周周报（总第16期），记录本周的见闻与思考</description>
+    </item>
     <item>
       <title>NebulaNovaLifeWeekly #15 - 2025年第06周周报</title>
       <link>https://celiachu.github.io/weekly/weekly_15/</link>
