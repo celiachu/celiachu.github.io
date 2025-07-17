@@ -4,7 +4,7 @@ date: 2025-07-16T19:33:26+08:00
 draft: false
 author: "NebulaNova"
 tags: ["Tech", "Testing"]
-categories: \["Blog"]
+categories: ["Blog"]
 series: ["Blog"]
 description: "一篇记录如何从零实现 JavaScript 单元测试框架 Hope 的工程实录，涵盖设计动机、模块划分、钩子机制、执行顺序、架构思考等核心内容"
 featured: false
