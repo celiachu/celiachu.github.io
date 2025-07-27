@@ -9,23 +9,23 @@
       <url>https://celiachu.github.io/images/avatar.png</url>
       <link>https://celiachu.github.io/images/avatar.png</link>
     </image>
-    <generator>Hugo -- 0.148.1</generator>
+    <generator>Hugo -- 0.148.2</generator>
     <language>zh</language>
     <copyright>版权所有。保留一切权利。</copyright>
-    <lastBuildDate>Wed, 16 Jul 2025 19:33:26 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 28 Jul 2025 00:17:01 +0800</lastBuildDate>
     <atom:link href="https://celiachu.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>周报</title>
+      <link>https://celiachu.github.io/categories/%E5%91%A8%E6%8A%A5/</link>
+      <pubDate>Mon, 28 Jul 2025 00:17:01 +0800</pubDate>
+      <guid>https://celiachu.github.io/categories/%E5%91%A8%E6%8A%A5/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Blog</title>
       <link>https://celiachu.github.io/categories/blog/</link>
       <pubDate>Wed, 16 Jul 2025 19:33:26 +0800</pubDate>
       <guid>https://celiachu.github.io/categories/blog/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>周报</title>
-      <link>https://celiachu.github.io/categories/%E5%91%A8%E6%8A%A5/</link>
-      <pubDate>Wed, 09 Jul 2025 10:10:22 +0800</pubDate>
-      <guid>https://celiachu.github.io/categories/%E5%91%A8%E6%8A%A5/</guid>
       <description></description>
     </item>
   </channel>
