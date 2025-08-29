@@ -6,7 +6,7 @@ categories: ["周报"]
 series: ["Weekly Report"]
 series_order: 21
 tags: ["weekly"]
-summary: "2025年第 34 周周报（总第21期），反对AI速胜论与速败论
+summary: "2025年第 34 周周报（总第21期），反对AI速胜论与速败论"
 ---
 # 反对AI速胜论与速败论
 
