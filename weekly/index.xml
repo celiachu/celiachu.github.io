@@ -9,11 +9,18 @@
       <url>https://celiachu.github.io/images/avatar.png</url>
       <link>https://celiachu.github.io/images/avatar.png</link>
     </image>
-    <generator>Hugo -- 0.149.0</generator>
+    <generator>Hugo -- 0.150.0</generator>
     <language>zh</language>
     <copyright>版权所有。保留一切权利。</copyright>
-    <lastBuildDate>Fri, 29 Aug 2025 18:19:46 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 08 Sep 2025 18:40:24 +0800</lastBuildDate>
     <atom:link href="https://celiachu.github.io/weekly/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NebulaNovaLifeWeekly #23 - 2025年第 n 周周报</title>
+      <link>https://celiachu.github.io/weekly/weekly_23/</link>
+      <pubDate>Mon, 08 Sep 2025 18:40:24 +0800</pubDate>
+      <guid>https://celiachu.github.io/weekly/weekly_23/</guid>
+      <description>2025年第 36 周周报（总第23期），可能性与确定性——对生成式大语言模型的一点思考</description>
+    </item>
     <item>
       <title>NebulaNovaLifeWeekly #22 - 2025年第 35 周周报</title>
       <link>https://celiachu.github.io/weekly/weekly_22/</link>
