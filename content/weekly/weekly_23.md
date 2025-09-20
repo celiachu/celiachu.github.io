@@ -1,5 +1,5 @@
 ---
-title: "NebulaNovaLifeWeekly #23 - 2025年第 n 周周报"
+title: "NebulaNovaLifeWeekly #23 - 2025年第 36 周周报"
 date: 2025-09-08T18:40:24+08:00
 draft: false
 categories: ["周报"]
