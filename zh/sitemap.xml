@@ -2,6 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://celiachu.github.io/</loc>
+    <lastmod>2025-09-19T16:51:36+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://celiachu.github.io/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://celiachu.github.io/"
+                />
+  </url><url>
+    <loc>https://celiachu.github.io/weekly/</loc>
+    <lastmod>2025-09-19T16:51:36+08:00</lastmod>
+  </url><url>
     <loc>https://celiachu.github.io/categories/</loc>
     <lastmod>2025-09-08T18:40:24+08:00</lastmod>
     <xhtml:link
@@ -13,19 +29,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://celiachu.github.io/categories/"
-                />
-  </url><url>
-    <loc>https://celiachu.github.io/</loc>
-    <lastmod>2025-09-08T18:40:24+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://celiachu.github.io/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://celiachu.github.io/"
                 />
   </url><url>
     <loc>https://celiachu.github.io/weekly/weekly_23/</loc>
@@ -58,9 +61,6 @@
                 />
   </url><url>
     <loc>https://celiachu.github.io/tags/weekly/</loc>
-    <lastmod>2025-09-08T18:40:24+08:00</lastmod>
-  </url><url>
-    <loc>https://celiachu.github.io/weekly/</loc>
     <lastmod>2025-09-08T18:40:24+08:00</lastmod>
   </url><url>
     <loc>https://celiachu.github.io/series/weekly-report/</loc>
