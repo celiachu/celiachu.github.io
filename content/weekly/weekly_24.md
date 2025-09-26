@@ -1,7 +1,7 @@
 ---
 title: "NebulaNovaLifeWeekly #24 - 2025年第 38 周周报"
 date: 2025-09-19T16:51:36+08:00
-draft: true
+draft: false
 categories: ["周报"]
 series: ["Weekly Report"]
 series_order: 24
