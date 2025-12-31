@@ -1,7 +1,7 @@
 ---
 
 {{- $num := int (replace .File.ContentBaseName "weekly_" "") -}}
-title: "NebulaNovaLifeWeekly #{{$num}} - {{ dateFormat "2006" .Date }}年第 n 周周报"
+title: "LifeWeekly #{{$num}} - {{ dateFormat "2006" .Date }}年第 n 周周报"
 date: {{ .Date }}
 draft: true
 categories: ["周报"]
