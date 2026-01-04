@@ -4,13 +4,14 @@ title: "NebulaNovaLifeWeekly #10｜2025年第1周周报"
 description: ""
 categories: ["周报"]
 tags: ["weekly"]
-series: []
+
 summary: "2025年第1周周报（总第10期），记录本周的见闻与思考"
 featured: true
 series: ["Weekly Report"]
 series_order: 10
 ---
-# 2025年第1周周报（总第10期），记录本周的见闻与思考
+
+# 2025 年第 1 周周报（总第 10 期），记录本周的见闻与思考
 
 ## 本周概览
 

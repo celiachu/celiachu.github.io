@@ -3,7 +3,6 @@ date: 2024-01-02T22:00:00+08:00
 title: "NebulaNovaLifeWeekly #03｜2023年度总结"
 description: "没有记录的项目和没有记录的人生一样，都会越来越模糊直至忘记。"
 tags: [weekly, 总结, 读书分享]
-series: []
 featured: true
 image: "https://s2.loli.net/2024/01/02/1zLqPIMAiHYynsu.png"
 categories: ["周报"]

@@ -3,7 +3,7 @@ date: 2024-04-19T10:05:18+08:00
 title: "NebulaNovaLifeWeekly #05｜心血来潮往往会后继乏力"
 description: ""
 tags: []
-series: []
+
 featured: true
 categories: ["周报"]
 series: ["Weekly Report"]

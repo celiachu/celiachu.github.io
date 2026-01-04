@@ -4,7 +4,7 @@ title: "NebulaNovaLifeWeekly #11 - 习惯降低决策成本"
 description: ""
 categories: ["周报"]
 tags: ["weekly"]
-series: []
+
 summary: "简单记录一下习惯的重要性"
 featured: true
 series: ["Weekly Report"]

@@ -3,7 +3,7 @@ date: 2024-05-10T18:00:00+08:00
 title: "NebulaNovaLifeWeekly #07｜袍哥：岂曰无衣，与子同袍"
 description: ""
 tags: []
-series: []
+
 featured: true
 categories: ["周报"]
 series: ["Weekly Report"]

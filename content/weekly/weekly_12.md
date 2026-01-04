@@ -4,7 +4,7 @@ title: "NebulaNovaLifeWeekly #12｜三月·缓慢重启"
 description: ""
 categories: ["周报"]
 tags: ["weekly"]
-series: []
+
 summary: "三月的总结"
 featured: true
 series: ["Weekly Report"]

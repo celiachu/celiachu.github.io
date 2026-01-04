@@ -7,7 +7,8 @@ pagination:
   pagerSize: 5
 theme: hugo-PaperMod
 defaultContentLanguage: 'zh'
-
+hasCJKLanguage: true
+readingTimeSpeed: 300    # 每分钟阅读字数，中文建议300-400
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
@@ -135,6 +136,7 @@ params:
   # disableThemeToggle: true
   ShowShareButtons: true
   ShowReadingTime: true
+  ShowWordCount: true
   # disableSpecial1stPost: true
   displayFullLangName: true
   ShowPostNavLinks: true
