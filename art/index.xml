@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Arts on NebulaNovaLife</title>
+    <link>https://celiachu.github.io/art/</link>
+    <description>Recent content in Arts on NebulaNovaLife</description>
+    <image>
+      <title>NebulaNovaLife</title>
+      <url>https://celiachu.github.io/images/avatar.png</url>
+      <link>https://celiachu.github.io/images/avatar.png</link>
+    </image>
+    <generator>Hugo -- 0.154.2</generator>
+    <language>zh</language>
+    <copyright>版权所有。保留一切权利。</copyright>
+    <atom:link href="https://celiachu.github.io/art/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
