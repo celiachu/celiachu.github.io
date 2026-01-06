@@ -4,22 +4,201 @@
     <title>Blog on NebulaNovaLife</title>
     <link>https://celiachu.github.io/categories/blog/</link>
     <description>Recent content in Blog on NebulaNovaLife</description>
-    <image>
-      <title>NebulaNovaLife</title>
-      <url>https://celiachu.github.io/images/avatar.png</url>
-      <link>https://celiachu.github.io/images/avatar.png</link>
-    </image>
     <generator>Hugo -- 0.154.2</generator>
     <language>zh</language>
-    <copyright>版权所有。保留一切权利。</copyright>
+    <copyright>2025 NebulaNova</copyright>
     <lastBuildDate>Wed, 16 Jul 2025 19:33:26 +0800</lastBuildDate>
     <atom:link href="https://celiachu.github.io/categories/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>从零实现一个测试框架：Hope 项目实践记录</title>
-      <link>https://celiachu.github.io/blog/reinventing-testing-from-scratch/</link>
+      <link>https://celiachu.github.io/post/2025/reinventing-testing-from-scratch/</link>
       <pubDate>Wed, 16 Jul 2025 19:33:26 +0800</pubDate>
-      <guid>https://celiachu.github.io/blog/reinventing-testing-from-scratch/</guid>
+      <guid>https://celiachu.github.io/post/2025/reinventing-testing-from-scratch/</guid>
       <description>一篇记录如何从零实现 JavaScript 单元测试框架 Hope 的工程实录，涵盖设计动机、模块划分、钩子机制、执行顺序、架构思考等核心内容</description>
+      <content:encoded><![CDATA[<h1 id="从零实现一个测试框架hope-项目实践记录">从零实现一个测试框架：Hope 项目实践记录</h1>
+<h2 id="缘起">缘起</h2>
+<p>为什么要自己实现一个测试框架？</p>
+<blockquote>
+<p>阅读了 <a href="https://ramsayleung.github.io/zh/post/2025/reinvent_unit_test/">《重新造轮子系列(一)：单元测试框架》</a>。这个项目是这个文章的实践，因为本人也用过 Jest 和 Mocha ，了解这两个测试框架的功能，所以尝试自己实现一个新的测试框架，并没有解决其他痛点，为了学习 js 代码和CLI架构。</p>
+</blockquote>
+<h2 id="项目目录结构概览">项目目录结构概览</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">hope-test/
+</span></span><span class="line"><span class="cl">├── src/
+</span></span><span class="line"><span class="cl">│   ├── hope.ts      // 核心测试框架实现
+</span></span><span class="line"><span class="cl">│   └── pray.ts      // 命令行工具层
+</span></span><span class="line"><span class="cl">├── tests/           // 测试用例
+</span></span><span class="line"><span class="cl">├── package.json
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li><code>hope.ts</code>: 测试框架核心，负责测试注册、钩子执行、断言、错误分类等逻辑</li>
+<li><code>pray.ts</code>: CLI 入口，负责参数解析、结果展示、报告生成</li>
+</ul>
+<h2 id="核心设计理念">核心设计理念</h2>
+<h3 id="hope-类">Hope 类</h3>
+<p>核心属性包括：</p>
+<ul>
+<li><code>suites</code>：完整的测试套件树结构</li>
+<li><code>currentSuite</code>：当前正在注册的套件</li>
+<li><code>passes / fails / errors</code>：执行结果分类</li>
+</ul>
+<h3 id="测试注册机制">测试注册机制</h3>
+<p>测试文件中注册用例的基本形式如下：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-ts" data-lang="ts"><span class="line"><span class="cl"><span class="kr">import</span> <span class="p">{</span> <span class="nx">test</span> <span class="p">}</span> <span class="kr">from</span> <span class="s1">&#39;../src/hope&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="nx">test</span><span class="p">(</span><span class="s1">&#39;my first test&#39;</span><span class="p">,</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// some logic
+</span></span></span><span class="line"><span class="cl"><span class="p">});</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>这些注册代码在“加载模块瞬间”即被执行，Hope 会将测试信息注册到 <code>currentSuite.tests</code> 中。</p>
+<h3 id="套件嵌套与树结构">套件嵌套与树结构</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-ts" data-lang="ts"><span class="line"><span class="cl"><span class="nx">describe</span><span class="p">(</span><span class="s1">&#39;Suite A&#39;</span><span class="p">,</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">test</span><span class="p">(</span><span class="s1">&#39;Test A1&#39;</span><span class="p">,</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{});</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="nx">describe</span><span class="p">(</span><span class="s1">&#39;Suite B&#39;</span><span class="p">,</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">test</span><span class="p">(</span><span class="s1">&#39;Test B1&#39;</span><span class="p">,</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{});</span>
+</span></span><span class="line"><span class="cl">  <span class="p">});</span>
+</span></span><span class="line"><span class="cl"><span class="p">});</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>此结构最终构成一个树：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">root
+</span></span><span class="line"><span class="cl">├── Suite A
+</span></span><span class="line"><span class="cl">│   ├── Test A1
+</span></span><span class="line"><span class="cl">│   └── Suite B
+</span></span><span class="line"><span class="cl">│       └── Test B1
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="钩子系统与执行顺序">钩子系统与执行顺序</h3>
+<p>支持四种钩子：<code>beforeAll</code>, <code>beforeEach</code>, <code>afterEach</code>, <code>afterAll</code></p>
+<p>执行顺序示意：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">A beforeAll
+</span></span><span class="line"><span class="cl">A beforeEach
+</span></span><span class="line"><span class="cl">Test A1
+</span></span><span class="line"><span class="cl">A afterEach
+</span></span><span class="line"><span class="cl">B beforeAll
+</span></span><span class="line"><span class="cl">A beforeEach
+</span></span><span class="line"><span class="cl">B beforeEach
+</span></span><span class="line"><span class="cl">Test B1
+</span></span><span class="line"><span class="cl">B afterEach
+</span></span><span class="line"><span class="cl">A afterEach
+</span></span><span class="line"><span class="cl">B afterAll
+</span></span><span class="line"><span class="cl">A afterAll
+</span></span></code></pre></td></tr></table>
+</div>
+</div><blockquote>
+<p>beforeEach的hook会从父到子执行，具体收集hooks的代码是while循环不断向父节点收集
+特别注意：<code>afterEach</code> 的执行顺序是反向的，因此需要 <code>reverse()</code></p>
+</blockquote>
+<h2 id="-cli-模块prayts">📂 CLI 模块（pray.ts）</h2>
+<ul>
+<li>使用 <code>minimist</code> 解析命令行参数</li>
+<li>根据参数决定输出模式（terse / JSON / future HTML）</li>
+</ul>
+<h2 id="错误处理机制">错误处理机制</h2>
+<p>框架区分两种错误：</p>
+<table>
+  <thead>
+      <tr>
+          <th>分类</th>
+          <th>说明</th>
+          <th>示例</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><code>fail</code></td>
+          <td>断言失败</td>
+          <td><code>assert(false)</code></td>
+      </tr>
+      <tr>
+          <td><code>error</code></td>
+          <td>异常中断</td>
+          <td><code>throw new Error()</code></td>
+      </tr>
+  </tbody>
+</table>
+<blockquote>
+<p>runHooks 方法未处理异常，异常将由 <code>runSuite()</code> 中的 try&hellip;catch 捕获。</p>
+</blockquote>
+<h2 id="生命周期">生命周期</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-gdscript3" data-lang="gdscript3"><span class="line"><span class="cl"><span class="p">[</span><span class="nb">load</span> <span class="n">tests</span><span class="p">]</span> <span class="o">=&gt;</span> <span class="p">[</span><span class="n">register</span> <span class="n">describe</span><span class="o">/</span><span class="n">test</span><span class="p">]</span> <span class="o">=&gt;</span> <span class="p">[</span><span class="n">build</span> <span class="n">suite</span> <span class="n">tree</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">         <span class="err">↓</span>
+</span></span><span class="line"><span class="cl">     <span class="p">[</span><span class="n">hope</span><span class="o">.</span><span class="n">run</span><span class="p">()]</span>
+</span></span><span class="line"><span class="cl">         <span class="err">↓</span>
+</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="n">runSuite递归执行</span><span class="err">，每层</span><span class="n">beforeAll</span><span class="err">→测试→</span><span class="n">afterAll</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">         <span class="err">↓</span>
+</span></span><span class="line"><span class="cl">  <span class="p">[</span><span class="err">生成报告：</span><span class="n">console</span><span class="o">/</span><span class="n">json</span><span class="p">]</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="总结">总结</h2>
+<p>读一百次这个文章没有自己写一个来的实在</p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

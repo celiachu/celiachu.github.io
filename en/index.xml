@@ -4,14 +4,26 @@
     <title>NebulaNovaLife</title>
     <link>https://celiachu.github.io/en/</link>
     <description>Recent content on NebulaNovaLife</description>
-    <image>
-      <title>NebulaNovaLife</title>
-      <url>https://celiachu.github.io/images/avatar.png</url>
-      <link>https://celiachu.github.io/images/avatar.png</link>
-    </image>
     <generator>Hugo -- 0.154.2</generator>
     <language>en</language>
     <copyright>2025 NebulaNova</copyright>
+    <lastBuildDate>Fri, 03 Jan 2025 11:20:00 +0800</lastBuildDate>
     <atom:link href="https://celiachu.github.io/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Guestbook</title>
+      <link>https://celiachu.github.io/en/guestbook/</link>
+      <pubDate>Fri, 03 Jan 2025 11:20:00 +0800</pubDate>
+      <guid>https://celiachu.github.io/en/guestbook/</guid>
+      <description>&lt;p&gt;Welcome to the guestbook! Please leave your comments, questions, or suggestions below.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Welcome to the guestbook! Please leave your comments, questions, or suggestions below.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Art</title>
+      <link>https://celiachu.github.io/en/art/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://celiachu.github.io/en/art/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
