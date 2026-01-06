@@ -1,0 +1,238 @@
+baseURL: https://ramsayleung.github.io
+title: "In Pursuit of Simplicity"
+pagination:
+  pagerSize: 5
+theme: PaperMod
+
+author:
+  name: Ramsay Leung
+languageCode: en-us
+rssLimit: 10
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+hasCJKLanguage: true # has chinese/japanese/korean ?
+
+googleAnalytics: "G-9MG65HQHEL"
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: "Ramsay's Blog"
+  description: "In Pursuit of Hubris"
+  keywords: [Blog, Software, Life, Enginering]
+  author: Ramsay Leung
+  # author: ["Me", "You"] # multiple authors
+  images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "January 2, 2006"
+  math: true
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowFullTextInRSS: true
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  hideAuthor: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  hidemeta: false
+  hideSummary: false
+  comments: true
+  showtoc: true
+  tocopen: false
+
+  assets:
+    disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "/favicon.ico"
+    favicon16x16:  "/favicon-16x16.png"
+    favicon32x32:  "/favicon-32x32.png"
+    apple_touch_icon:  "/apple-touch-icon.png"
+    safari_pinned_tab: "<link / abs url>"
+
+  label:
+    text: "Home"
+    icon: /apple-touch-icon.png
+    iconHeight: 35
+
+  # profile-mode
+  profileMode:
+    enabled: false # needs to be explicitly set
+    title: ExampleSite
+    subtitle: "This is subtitle"
+    imageUrl: "<img location>"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: my image
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Hi there \U0001F44B"
+    Content: >
+      There is Ramsay's personal blog, where he shares a bit of what he has learned along the way. \
+
+      _-- **Ramsay Leung**_
+
+  analytics:
+    google:
+      SiteVerificationTag: "XYZabc"
+    bing:
+      SiteVerificationTag: "XYZabc"
+    yandex:
+      SiteVerificationTag: "XYZabc"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  editPost:
+    URL: "https://github.com/ramsayleung/ramsayleung.github.io/blob/master/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+  giscus:
+    repo: "ramsayleung/comment"
+    repoId: "MDEwOlJlcG9zaXRvcnkzMDk2NjQ1NDk="
+    category: "General"
+    categoryId: "DIC_kwDOEnUbJc4Cltnz"
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/ramsayleung"
+    - name: stackoverflow
+      url: "https://stackoverflow.com/users/5738112/ramsay"
+    - name: x
+      url: "https://twitter.com/foobar_ramsay"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/ramsayleung/"
+    - name: telegram
+      url: "https://t.me/+Z2PUA7NFt41iY2M1"
+defaultContentLanguageInSubdir: true
+copyright: "See this site's source code [here](https://github.com/ramsayleung/ramsayleung.github.io), licensed under GPLv3 ·"
+defaultContentLanguage: en
+languages:
+  en:
+    languageName: "English"
+    subtitle: "Yet Another Programming Blog"
+    weight: 1
+    contentDir: 'content/en'
+    menu:
+      main:
+        - name: Archives
+          url: /archives/
+          weight: 1
+        - name: Search
+          url: /search/
+          weight: 10
+        - name: Tags
+          url: /tags/
+          weight: 30
+        - name: About
+          url: /about_me
+          weight: 40
+        - name: RSS
+          url: /en/index.xml
+          weight: 50
+  zh:
+    title: "菠萝油与天光墟"
+    languageName: "中文"
+    subtitle: "博客残本"
+    contentDir: 'content/zh'
+    weight: 2
+    menu:
+      main:
+        - name: "归档"
+          url: zh/archives/
+          weight: 9
+        - name: "搜索"
+          url: zh/search/
+          weight: 10
+        - name: "标签"
+          url: zh/tags/
+          weight: 30
+        - name: "关于"
+          url: zh/about_me_zh/
+          weight: 40
+        - name: RSS
+          url: "/zh/index.xml"
+          weight: 50
+        - identifier: series
+          name: "系列 "
+          url: /zh/categories/
+          post: ' ▾'
+          weight: 2
+        - identifier: gain_and_loss
+          parent: series
+          name: "履迹与沉思"
+          url: /zh/categories/履迹与沉思/
+          weight: 1
+        - identifier: adventure_in_canada
+          parent: series
+          name: "旅加经历"
+          url: /zh/categories/旅加经历
+          weight: 2
+        - identifier: workflow
+          parent: series
+          name: "我的工作流"
+          url: /zh/categories/工作流/
+          weight: 3
+        - identifier: advanced_testing
+          parent: series
+          name: "测试技能进阶"
+          url: /zh/categories/测试技能进阶/
+          weight: 4
+        - identifier: soft_skill
+          parent: series
+          name: "软件工程师的软技能指北"
+          url: /zh/categories/软件工程师的软技能指北/
+          weight: 5
+        - identifier: book_reading
+          parent: series
+          name: "读书感悟"
+          url: /zh/categories/读书感悟/
+          weight: 6
+
+markup:
+  # https://github.com/adityatelange/hugo-PaperMod/issues/1386
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    # style: modus-operandi # useless, need to set custom css
+  goldmark:
+    renderer:
+      unsafe: true
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
