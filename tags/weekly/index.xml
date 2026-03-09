@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Weekly on NebulaNovaLife</title>
+    <title>Weekly on LybertiLife</title>
     <link>https://celiachu.github.io/tags/weekly/</link>
-    <description>Recent content in Weekly on NebulaNovaLife</description>
+    <description>Recent content in Weekly on LybertiLife</description>
     <generator>Hugo -- 0.157.0</generator>
     <language>zh</language>
-    <copyright>2025 NebulaNova</copyright>
+    <copyright>2025 Lyberti</copyright>
     <lastBuildDate>Wed, 25 Feb 2026 15:11:02 +0800</lastBuildDate>
     <atom:link href="https://celiachu.github.io/tags/weekly/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -176,7 +176,7 @@
 ]]></content:encoded>
     </item>
     <item>
-      <title>NebulaNovaLifeWeekly #25 - 2025年第 39 周周报</title>
+      <title>LifeWeekly #25 - 2025年第 39 周周报</title>
       <link>https://celiachu.github.io/post/2025/weekly_25/</link>
       <pubDate>Fri, 26 Sep 2025 20:00:00 +0800</pubDate>
       <guid>https://celiachu.github.io/post/2025/weekly_25/</guid>
@@ -200,7 +200,7 @@
 ]]></content:encoded>
     </item>
     <item>
-      <title>NebulaNovaLifeWeekly #24 - 2025年第 38 周周报</title>
+      <title>LifeWeekly #24 - 2025年第 38 周周报</title>
       <link>https://celiachu.github.io/post/2025/weekly_24/</link>
       <pubDate>Fri, 19 Sep 2025 16:51:36 +0800</pubDate>
       <guid>https://celiachu.github.io/post/2025/weekly_24/</guid>
@@ -223,7 +223,7 @@
 ]]></content:encoded>
     </item>
     <item>
-      <title>NebulaNovaLifeWeekly #23 - 2025年第 36 周周报</title>
+      <title>LifeWeekly #23 - 2025年第 36 周周报</title>
       <link>https://celiachu.github.io/post/2025/weekly_23/</link>
       <pubDate>Mon, 08 Sep 2025 18:40:24 +0800</pubDate>
       <guid>https://celiachu.github.io/post/2025/weekly_23/</guid>
@@ -241,7 +241,7 @@
 ]]></content:encoded>
     </item>
     <item>
-      <title>NebulaNovaLifeWeekly #22 - 2025年第 35 周周报</title>
+      <title>LifeWeekly #22 - 2025年第 35 周周报</title>
       <link>https://celiachu.github.io/post/2025/weekly_22/</link>
       <pubDate>Fri, 29 Aug 2025 18:19:46 +0800</pubDate>
       <guid>https://celiachu.github.io/post/2025/weekly_22/</guid>
@@ -263,7 +263,7 @@
 ]]></content:encoded>
     </item>
     <item>
-      <title>NebulaNovaLifeWeekly #21 - 2025年第 34 周周报 反对AI速胜论与速败论</title>
+      <title>LifeWeekly #21 - 2025年第 34 周周报 反对AI速胜论与速败论</title>
       <link>https://celiachu.github.io/post/2025/weekly_21/</link>
       <pubDate>Fri, 22 Aug 2025 08:22:47 +0800</pubDate>
       <guid>https://celiachu.github.io/post/2025/weekly_21/</guid>
@@ -290,7 +290,7 @@
 ]]></content:encoded>
     </item>
     <item>
-      <title>NebulaNovaLifeWeekly #20 - 2025年第 33 周周报</title>
+      <title>LifeWeekly #20 - 2025年第 33 周周报</title>
       <link>https://celiachu.github.io/post/2025/weekly_20/</link>
       <pubDate>Sun, 17 Aug 2025 15:07:51 +0800</pubDate>
       <guid>https://celiachu.github.io/post/2025/weekly_20/</guid>
@@ -307,7 +307,7 @@
 ]]></content:encoded>
     </item>
     <item>
-      <title>NebulaNovaLifeWeekly #19 - 2025年第 32 周周报</title>
+      <title>LifeWeekly #19 - 2025年第 32 周周报</title>
       <link>https://celiachu.github.io/post/2025/weekly_19/</link>
       <pubDate>Sun, 10 Aug 2025 11:23:38 +0800</pubDate>
       <guid>https://celiachu.github.io/post/2025/weekly_19/</guid>
@@ -351,7 +351,7 @@
 ]]></content:encoded>
     </item>
     <item>
-      <title>NebulaNovaLifeWeekly #18 - 2025年第31周周报</title>
+      <title>LifeWeekly #18 - 2025年第31周周报</title>
       <link>https://celiachu.github.io/post/2025/weekly_18/</link>
       <pubDate>Sat, 02 Aug 2025 16:28:39 +0800</pubDate>
       <guid>https://celiachu.github.io/post/2025/weekly_18/</guid>
@@ -404,7 +404,7 @@
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-C" data-lang="C"><span class="line"><span class="cl"><span class="kt">int</span> <span class="n">rbx</span> <span class="o">=</span> <span class="mi">42</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="n">rax</span> <span class="o">=</span> <span class="n">rbx</span><span class="p">;</span> 
+</span></span><span class="line"><span class="cl"><span class="n">rax</span> <span class="o">=</span> <span class="n">rbx</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="k">return</span> <span class="n">rax</span><span class="p">;</span>
 </span></span></code></pre></td></tr></table>
 </div>
@@ -419,7 +419,7 @@
 ]]></content:encoded>
     </item>
     <item>
-      <title>NebulaNovaLifeWeekly #17 - 2025年第28周周报</title>
+      <title>LifeWeekly #17 - 2025年第28周周报</title>
       <link>https://celiachu.github.io/post/2025/weekly_17/</link>
       <pubDate>Mon, 28 Jul 2025 00:17:01 +0800</pubDate>
       <guid>https://celiachu.github.io/post/2025/weekly_17/</guid>
@@ -441,17 +441,18 @@
 </ul>
 <h2 id="-所看">📚 所看</h2>
 <ul>
-<li>《春》村上春树</li>
-</ul>
+<li>《春》村上春树
 <blockquote>
 <p>因为较之生之艰难，在这上面寻求意味的确太轻而易举</p>
 </blockquote>
+</li>
+</ul>
 <h2 id="-所想">🧠 所想</h2>
 <p>还是要提一下观察到的事情，读者为什么老是会对作品当中的人物进行道德审查呢？出于什么目的？</p>
 ]]></content:encoded>
     </item>
     <item>
-      <title>NebulaNovaLifeWeekly #16 - 2025年第09周周报</title>
+      <title>LifeWeekly #16 - 2025年第09周周报</title>
       <link>https://celiachu.github.io/post/2025/weekly_16/</link>
       <pubDate>Wed, 09 Jul 2025 10:10:22 +0800</pubDate>
       <guid>https://celiachu.github.io/post/2025/weekly_16/</guid>
@@ -558,12 +559,12 @@
 ]]></content:encoded>
     </item>
     <item>
-      <title>NebulaNovaLifeWeekly #15 - 2025年第06周周报</title>
+      <title>LifeWeekly #15 - 2025年第06周周报</title>
       <link>https://celiachu.github.io/post/2025/weekly_15/</link>
       <pubDate>Fri, 06 Jun 2025 18:15:27 +0800</pubDate>
       <guid>https://celiachu.github.io/post/2025/weekly_15/</guid>
       <description>2025年第06周周报（总第15期），记录本周的见闻与思考</description>
-      <content:encoded><![CDATA[<h1 id="nebulanovalifeweekly-15---2025年第06周周报">NebulaNovaLifeWeekly #15 - 2025年第06周周报</h1>
+      <content:encoded><![CDATA[<h1 id="lifeweekly-15---2025年第06周周报">LifeWeekly #15 - 2025年第06周周报</h1>
 <h2 id="决策系统">决策系统</h2>
 <p>本周听了一期关于“决策系统”的播客，提到了一些有意思的观点：</p>
 <h3 id="1-好决策--好结果">1. 好决策 ≠ 好结果</h3>
@@ -619,12 +620,12 @@
 ]]></content:encoded>
     </item>
     <item>
-      <title>NebulaNovaLifeWeekly #14 - 2025年第30周周报</title>
+      <title>LifeWeekly #14 - 2025年第30周周报</title>
       <link>https://celiachu.github.io/post/2025/weekly_14/</link>
       <pubDate>Fri, 30 May 2025 18:27:32 +0800</pubDate>
       <guid>https://celiachu.github.io/post/2025/weekly_14/</guid>
       <description>2025年第30周周报（总第14期），2025年五月总结</description>
-      <content:encoded><![CDATA[<h1 id="nebulanovalifeweekly-14---2025年第30周周报">NebulaNovaLifeWeekly #14 - 2025年第30周周报</h1>
+      <content:encoded><![CDATA[<h1 id="lifeweekly-14---2025年第30周周报">LifeWeekly #14 - 2025年第30周周报</h1>
 <p>关键词：身体调节、生活规划</p>
 <h2 id="徒步">徒步</h2>
 <p>先是去了一趟中坝森林，又去了一趟茶园，购置了大疆Action，徒步真的能换脑子，我发现徒步和冥想有异曲同工之妙，我把冥想比做清空上下文的操作，旅行也是换脑子，接触新的东西，忘记工作的烦恼，降低信息噪音。</p>
@@ -774,12 +775,12 @@
 ]]></content:encoded>
     </item>
     <item>
-      <title>NebulaNovaLifeWeekly #13 - 2025年第08周周报</title>
+      <title>LifeWeekly #13 - 2025年第08周周报</title>
       <link>https://celiachu.github.io/post/2025/weekly_13/</link>
       <pubDate>Thu, 08 May 2025 14:00:42 +0800</pubDate>
       <guid>https://celiachu.github.io/post/2025/weekly_13/</guid>
       <description>2025年第08周周报（总第13期），记录本周的见闻与思考</description>
-      <content:encoded><![CDATA[<h2 id="nebulanovalifeweekly-13---2025年第08周周报">NebulaNovaLifeWeekly #13 - 2025年第08周周报</h2>
+      <content:encoded><![CDATA[<h2 id="lifeweekly-13---2025年第08周周报">LifeWeekly #13 - 2025年第08周周报</h2>
 <h2 id="-本周关键词">🌤️ 本周关键词</h2>
 <p>觉醒｜流程｜自动化｜失眠｜词根｜好奇心｜节奏感｜情感与理性｜输出焦虑｜晨跑</p>
 <h2 id="本周概览">本周概览</h2>
@@ -844,12 +845,12 @@
 ]]></content:encoded>
     </item>
     <item>
-      <title>NebulaNovaLifeWeekly #12｜三月·缓慢重启</title>
+      <title>LifeWeekly #12｜三月·缓慢重启</title>
       <link>https://celiachu.github.io/post/2025/weekly_12/</link>
       <pubDate>Mon, 31 Mar 2025 00:25:37 +0800</pubDate>
       <guid>https://celiachu.github.io/post/2025/weekly_12/</guid>
       <description>三月的总结</description>
-      <content:encoded><![CDATA[<h1 id="nebulanovalifeweekly-12---三月缓慢重启">NebulaNovaLifeWeekly #12 - 三月·缓慢重启</h1>
+      <content:encoded><![CDATA[<h1 id="lifeweekly-12---三月缓慢重启">LifeWeekly #12 - 三月·缓慢重启</h1>
 <h2 id="-月度关键词">🌤️ 月度关键词</h2>
 <blockquote>
 <p>缓慢重启 / 结构性深入 / 情绪过载 / 冥想稳定器 / 行动少 思考多</p>
@@ -1017,12 +1018,12 @@
 ]]></content:encoded>
     </item>
     <item>
-      <title>NebulaNovaLifeWeekly #11 - 习惯降低决策成本</title>
+      <title>LifeWeekly #11 - 习惯降低决策成本</title>
       <link>https://celiachu.github.io/post/2025/weekly_11/</link>
       <pubDate>Sat, 01 Mar 2025 00:25:37 +0800</pubDate>
       <guid>https://celiachu.github.io/post/2025/weekly_11/</guid>
       <description>简单记录一下习惯的重要性</description>
-      <content:encoded><![CDATA[<h1 id="nebulanovalifeweekly-11---习惯降低决策成本">NebulaNovaLifeWeekly #11 - 习惯降低决策成本</h1>
+      <content:encoded><![CDATA[<h1 id="lifeweekly-11---习惯降低决策成本">LifeWeekly #11 - 习惯降低决策成本</h1>
 <p>习惯降低决策成本，养成好习惯这件事好像是老生常谈的事情，但是我好像没有意识到习惯的强大，2 月份因为意识到健美好像对健康生活的改善度有限的时候，我尝试跑步，但是感觉跑步和健身虽然都是锻炼身体，但是我很难按照计划进行，健身当时我能安排出胸肩背腿五分化训练，但是跑步我好像不知道该怎么去跑，跑多久跑多远。多次和 Gpt 探讨为什么制定的计划难以执行的时候，他提到了一本书《原子习惯》，这本书我是看过了，而且我记得我第一次看的时候给了很差的评价</p>
 <blockquote>
 <p>“有一些书不必精读，大概翻一番就能知道作者想表达一个意思，有时候大量的篇幅
@@ -1044,19 +1045,11 @@
 <blockquote>
 <p>《长安的荔枝》</p>
 <ul>
-<li>
-<p><strong>状态</strong>: 看完</p>
-</li>
-<li>
-<p><strong>评分</strong>: ★★★★★
-《太白金星有点烦》</p>
-</li>
-<li>
-<p><strong>状态</strong>: 看完</p>
-</li>
-<li>
-<p><strong>评分</strong>: ★★★★★</p>
-</li>
+<li><strong>状态</strong>: 看完</li>
+<li><strong>评分</strong>: ★★★★★
+《太白金星有点烦》</li>
+<li><strong>状态</strong>: 看完</li>
+<li><strong>评分</strong>: ★★★★★</li>
 </ul>
 </blockquote>
 <p>这两本书可合在一起聊聊，都不是很长，但是都比较有意思，枯燥的书很多，看有趣的书是很有必要的。记得小时候看过不少的官场小说，现在反而很少能看到了，这两部代入了不同的时代一个是唐朝一个是西游记的背景用了一个别样的视角讲述故事，并且带入了很多现代的元素，让人耳目一新。特别是《太白金星有点烦》里面阴曹地府数据库升级的情节，程序员代入了已经。
@@ -1190,7 +1183,7 @@
 ]]></content:encoded>
     </item>
     <item>
-      <title>NebulaNovaLifeWeekly #10｜2025年第1周周报</title>
+      <title>LifeWeekly #10｜2025年第1周周报</title>
       <link>https://celiachu.github.io/post/2025/weekly_10/</link>
       <pubDate>Mon, 06 Jan 2025 10:05:23 +0800</pubDate>
       <guid>https://celiachu.github.io/post/2025/weekly_10/</guid>
@@ -1269,7 +1262,7 @@
 ]]></content:encoded>
     </item>
     <item>
-      <title>NebulaNovaLifeWeekly #03｜2023年度总结</title>
+      <title>LifeWeekly #03｜2023年度总结</title>
       <link>https://celiachu.github.io/post/2024/celiachu_weekly_3/</link>
       <pubDate>Tue, 02 Jan 2024 22:00:00 +0800</pubDate>
       <guid>https://celiachu.github.io/post/2024/celiachu_weekly_3/</guid>
@@ -1391,7 +1384,7 @@
 ]]></content:encoded>
     </item>
     <item>
-      <title>NebulaNovaLifeWeekly #02｜工具困境</title>
+      <title>LifeWeekly #02｜工具困境</title>
       <link>https://celiachu.github.io/post/2023/celiachu_weekly_2/</link>
       <pubDate>Mon, 25 Dec 2023 22:25:38 +0800</pubDate>
       <guid>https://celiachu.github.io/post/2023/celiachu_weekly_2/</guid>
@@ -1472,7 +1465,7 @@
 ]]></content:encoded>
     </item>
     <item>
-      <title>NebulaNovaLifeWeekly #01｜收藏夹谬误</title>
+      <title>LifeWeekly #01｜收藏夹谬误</title>
       <link>https://celiachu.github.io/post/2023/celiachu_weekly_1/</link>
       <pubDate>Fri, 15 Dec 2023 08:25:38 +0800</pubDate>
       <guid>https://celiachu.github.io/post/2023/celiachu_weekly_1/</guid>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Blog on NebulaNovaLife</title>
+    <title>Blog on LybertiLife</title>
     <link>https://celiachu.github.io/series/blog/</link>
-    <description>Recent content in Blog on NebulaNovaLife</description>
+    <description>Recent content in Blog on LybertiLife</description>
     <generator>Hugo -- 0.157.0</generator>
     <language>zh</language>
-    <copyright>2025 NebulaNova</copyright>
+    <copyright>2025 Lyberti</copyright>
     <lastBuildDate>Wed, 16 Jul 2025 19:33:26 +0800</lastBuildDate>
     <atom:link href="https://celiachu.github.io/series/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -62,8 +62,8 @@
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-ts" data-lang="ts"><span class="line"><span class="cl"><span class="kr">import</span> <span class="p">{</span> <span class="nx">test</span> <span class="p">}</span> <span class="kr">from</span> <span class="s1">&#39;../src/hope&#39;</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="nx">test</span><span class="p">(</span><span class="s1">&#39;my first test&#39;</span><span class="p">,</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+<pre tabindex="0" class="chroma"><code class="language-ts" data-lang="ts"><span class="line"><span class="cl"><span class="kr">import</span> <span class="p">{</span> <span class="nx">test</span> <span class="p">}</span> <span class="kr">from</span> <span class="s2">&#34;../src/hope&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="nx">test</span><span class="p">(</span><span class="s2">&#34;my first test&#34;</span><span class="p">,</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">  <span class="c1">// some logic
 </span></span></span><span class="line"><span class="cl"><span class="p">});</span>
 </span></span></code></pre></td></tr></table>
@@ -81,11 +81,11 @@
 </span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-ts" data-lang="ts"><span class="line"><span class="cl"><span class="nx">describe</span><span class="p">(</span><span class="s1">&#39;Suite A&#39;</span><span class="p">,</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">test</span><span class="p">(</span><span class="s1">&#39;Test A1&#39;</span><span class="p">,</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{});</span>
+<pre tabindex="0" class="chroma"><code class="language-ts" data-lang="ts"><span class="line"><span class="cl"><span class="nx">describe</span><span class="p">(</span><span class="s2">&#34;Suite A&#34;</span><span class="p">,</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">test</span><span class="p">(</span><span class="s2">&#34;Test A1&#34;</span><span class="p">,</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{});</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  <span class="nx">describe</span><span class="p">(</span><span class="s1">&#39;Suite B&#39;</span><span class="p">,</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">test</span><span class="p">(</span><span class="s1">&#39;Test B1&#39;</span><span class="p">,</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{});</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">describe</span><span class="p">(</span><span class="s2">&#34;Suite B&#34;</span><span class="p">,</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">test</span><span class="p">(</span><span class="s2">&#34;Test B1&#34;</span><span class="p">,</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{});</span>
 </span></span><span class="line"><span class="cl">  <span class="p">});</span>
 </span></span><span class="line"><span class="cl"><span class="p">});</span>
 </span></span></code></pre></td></tr></table>
