@@ -1,5 +1,5 @@
 ---
-title: "NebulaNovaLifeWeekly #19 - 2025年第 32 周周报"
+title: "LifeWeekly #19 - 2025年第 32 周周报"
 date: 2025-08-10T11:23:38+08:00
 draft: false
 categories: ["周报"]

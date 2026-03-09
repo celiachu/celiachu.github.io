@@ -1,6 +1,6 @@
 ---
 date: 2024-12-31T08:30:52+08:00
-title: "NebulaNovaLifeWeekly #09｜2024年度总结-云端"
+title: "LifeWeekly #09｜2024年度总结-云端"
 description: "回顾2024年的生活成长、阅读、音乐、电影及认知方面的收获与感悟。"
 tags: [个人总结, 年度回顾, 生活成长, 阅读, 音乐, 电影, 认知]
 featured: true

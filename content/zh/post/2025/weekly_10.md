@@ -1,6 +1,6 @@
 ---
 date: 2025-01-06T10:05:23+08:00
-title: "NebulaNovaLifeWeekly #10｜2025年第1周周报"
+title: "LifeWeekly #10｜2025年第1周周报"
 description: ""
 categories: ["周报"]
 tags: ["weekly"]

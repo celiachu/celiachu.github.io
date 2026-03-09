@@ -2,7 +2,7 @@
 title: "从零实现一个测试框架：Hope 项目实践记录"
 date: 2025-07-16T19:33:26+08:00
 draft: false
-author: "NebulaNova"
+author: ""
 tags: ["Tech", "Testing"]
 categories: ["Blog"]
 series: ["Blog"]
@@ -30,8 +30,8 @@ hope-test/
 ├── package.json
 ```
 
-* `hope.ts`: 测试框架核心，负责测试注册、钩子执行、断言、错误分类等逻辑
-* `pray.ts`: CLI 入口，负责参数解析、结果展示、报告生成
+- `hope.ts`: 测试框架核心，负责测试注册、钩子执行、断言、错误分类等逻辑
+- `pray.ts`: CLI 入口，负责参数解析、结果展示、报告生成
 
 ## 核心设计理念
 
@@ -39,17 +39,17 @@ hope-test/
 
 核心属性包括：
 
-* `suites`：完整的测试套件树结构
-* `currentSuite`：当前正在注册的套件
-* `passes / fails / errors`：执行结果分类
+- `suites`：完整的测试套件树结构
+- `currentSuite`：当前正在注册的套件
+- `passes / fails / errors`：执行结果分类
 
 ### 测试注册机制
 
 测试文件中注册用例的基本形式如下：
 
 ```ts
-import { test } from '../src/hope';
-test('my first test', () => {
+import { test } from "../src/hope";
+test("my first test", () => {
   // some logic
 });
 ```
@@ -59,11 +59,11 @@ test('my first test', () => {
 ### 套件嵌套与树结构
 
 ```ts
-describe('Suite A', () => {
-  test('Test A1', () => {});
+describe("Suite A", () => {
+  test("Test A1", () => {});
 
-  describe('Suite B', () => {
-    test('Test B1', () => {});
+  describe("Suite B", () => {
+    test("Test B1", () => {});
   });
 });
 ```
@@ -98,20 +98,21 @@ A afterEach
 B afterAll
 A afterAll
 ```
+
 > beforeEach的hook会从父到子执行，具体收集hooks的代码是while循环不断向父节点收集
 > 特别注意：`afterEach` 的执行顺序是反向的，因此需要 `reverse()`
 
 ## 📂 CLI 模块（pray.ts）
 
-* 使用 `minimist` 解析命令行参数
-* 根据参数决定输出模式（terse / JSON / future HTML）
+- 使用 `minimist` 解析命令行参数
+- 根据参数决定输出模式（terse / JSON / future HTML）
 
 ## 错误处理机制
 
 框架区分两种错误：
 
-| 分类      | 说明   | 示例                  |
-| ------- | ---- | ------------------- |
+| 分类    | 说明     | 示例                |
+| ------- | -------- | ------------------- |
 | `fail`  | 断言失败 | `assert(false)`     |
 | `error` | 异常中断 | `throw new Error()` |
 

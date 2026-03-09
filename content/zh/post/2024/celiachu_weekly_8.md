@@ -1,6 +1,6 @@
 ---
 date: 2024-06-15T08:30:52+08:00
-title: "NebulaNovaLifeWeekly #08｜健身入门小记"
+title: "LifeWeekly #08｜健身入门小记"
 description: ""
 tags: [健身]
 

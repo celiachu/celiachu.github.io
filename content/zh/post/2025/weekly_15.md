@@ -1,5 +1,5 @@
 ---
-title: "NebulaNovaLifeWeekly #15 - 2025年第06周周报"
+title: "LifeWeekly #15 - 2025年第06周周报"
 date: 2025-06-06T18:15:27+08:00
 draft: false
 featured: true
@@ -10,7 +10,7 @@ tags: ["weekly"]
 summary: "2025年第06周周报（总第15期），记录本周的见闻与思考"
 ---
 
-# NebulaNovaLifeWeekly #15 - 2025年第06周周报
+# LifeWeekly #15 - 2025年第06周周报
 
 ## 决策系统
 

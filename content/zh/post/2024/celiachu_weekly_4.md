@@ -1,6 +1,6 @@
 ---
 date: 2024-04-01T10:04:09+08:00
-title: "NebulaNovaLifeWeekly #04｜杀死内心的批评者"
+title: "LifeWeekly #04｜杀死内心的批评者"
 description: ""
 tags: []
 

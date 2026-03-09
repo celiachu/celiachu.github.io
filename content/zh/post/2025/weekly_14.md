@@ -1,5 +1,5 @@
 ---
-title: "NebulaNovaLifeWeekly #14 - 2025年第30周周报"
+title: "LifeWeekly #14 - 2025年第30周周报"
 date: 2025-05-30T18:27:32+08:00
 draft: false
 featured: true
@@ -10,7 +10,7 @@ tags: ["weekly"]
 summary: "2025年第30周周报（总第14期），2025年五月总结"
 ---
 
-# NebulaNovaLifeWeekly #14 - 2025年第30周周报
+# LifeWeekly #14 - 2025年第30周周报
 
 关键词：身体调节、生活规划
 

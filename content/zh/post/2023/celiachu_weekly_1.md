@@ -1,6 +1,6 @@
 ---
 date: 2023-12-15T08:25:38+08:00
-title: "NebulaNovaLifeWeekly #01｜收藏夹谬误"
+title: "LifeWeekly #01｜收藏夹谬误"
 description: ""
 tags: [weekly, 收藏]
 featured: true
@@ -119,7 +119,6 @@ series_order: 1
 ## 🎨 创意
 
 - [Coverview - 博客封面设计](https://coverview.vercel.app/editor)
-
   - 一个博客封面搜索工具，可以输入关键字然后生成对面的博客工具，这篇周刊的封面也来自于这个
     ![https://s2.loli.net/2023/12/15/LQ3mKs7Sz86nhvT.png](https://s2.loli.net/2023/12/15/LQ3mKs7Sz86nhvT.png)
 

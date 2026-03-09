@@ -1,6 +1,6 @@
 ---
 date: 2024-04-28T09:37:30+08:00
-title: "NebulaNovaLifeWeekly #06｜写在五一之前"
+title: "LifeWeekly #06｜写在五一之前"
 description: ""
 tags: []
 
