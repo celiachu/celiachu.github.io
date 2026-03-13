@@ -13,76 +13,90 @@ series:
 description: "在 Windows 上快速安装和配置 OpenClaw 的指南。"
 featured: false
 toc: true
-summary: "本指南将带你通过 WSL2 环境快速安装和配置 OpenClaw，并解决常见的代理问题。"
+summary: "本指南将带你通过 WSL2 环境快速安装和配置 OpenClaw，并解决常见的代理问题。适用于 Windows 11 及更新版本的 WSL 环境。"
 ---
 
 ## 1. 环境准备
 
 [官方文档](https://docs.openclaw.ai/platforms/windows)
 
-首先启动 WSL2。如果没有安装 WSL2，请先执行安装命令：
+### 步骤 A：安装 WSL2 与基础依赖
+首先在 Windows 中安装 WSL2。如果尚未安装，请在 **Windows PowerShell (管理员)** 中执行：
 
 ```powershell
 wsl --install
 ```
 
-### 网络设置
-由于涉及到代理问题，请直接打开 WSL 网络设置：
-- **Networking mode**: Mirrored
-- **Auto Proxy enabled**: 打开
-- **DNS proxy enabled**: 打开
+OpenClaw 依赖 Node.js 环境运行。进入 Ubuntu 终端后，建议先更新环境并安装 Node.js：
 
-然后确保本地代理工具已开启 **LAN** 和**系统代理**。
-
-配置完成后，在 Windows PowerShell 中运行以下命令以重启 WSL 使配置生效：
-
-```powershell
-wsl --shutdown
+**在 Ubuntu 终端中执行：**
+```bash
+sudo apt update && sudo apt upgrade -y
+# 建议使用 nvm 安装 Node.js
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+source ~/.bashrc
+nvm install --lts
 ```
 
-然后重新打开 Ubuntu 终端。
+### 步骤 B：网络设置（关键）
+**注意：** 镜像网络模式（Mirrored Mode）仅支持 **Windows 11 (22H2 及以上)** 且 WSL 版本需大于等于 2.0.0。
 
-## 2. 下载 OpenClaw
+#### 方案一：镜像网络模式（推荐，仅限 Win11）
+为了让 OpenClaw 能够顺畅访问模型 API，建议开启 WSL 的**镜像网络模式**：
+1. 在 Windows 开始菜单搜索并打开 **"WSL"** 应用设置。
+2. 勾选以下选项：
+   - **网络模式 (Networking Mode)**：选择 **镜像 (Mirrored)**。
+   - **自动代理 (Auto Proxy)**：勾选 **打开**。
+   - **DNS 代理 (DNS Proxy)**：勾选 **打开**。
 
-右键终端打开 Ubuntu，执行以下安装脚本：
+最后，在 Windows PowerShell 中执行 `wsl --shutdown` 以重启 WSL 使配置生效。
 
-```shell
-iwr -useb https://openclaw.ai/install.ps1 | iex
+## 2. 下载与安装 OpenClaw
+
+### 优先推荐：一键脚本安装
+如果你已经配置好了网络环境，通常可以直接使用官方脚本。
+
+**在 Ubuntu 终端中执行：**
+```bash
+curl -fsSL https://openclaw.ai/install.sh | bash
 ```
 
-> **注意**：
-> 1. 如果遇到下载安装很慢的情况，可以尝试手动更新 `apt`，安装 Node.js 环境，并为 `npm` 或 `pnpm` 换源后再安装。
-> 2. 如果需要 OpenClaw 的自动更新功能，也可以直接 Clone 完整代码仓库并进行自主构建。
+### 备选方案：解决安装极慢或失败
+如果 `curl` 下载脚本极慢，或者脚本运行到 `npm install` 阶段卡死，可以尝试手动安装：
 
-## 3. 安装与配置
+1. **配置国内镜像源**：
+   ```bash
+   npm config set registry https://registry.npmmirror.com
+   ```
+2. **通过 npm/pnpm 全局安装**：
+   ```bash
+   npm install -g openclaw@latest
+   ```
+3. **Git 安装（适用于开发者）**：
+   直接 `git clone` 官方仓库并运行 `pnpm run build`。
 
-OpenClaw 本身并不是 AI，而是一个通过通讯工具调用大模型 API 完成任务的工具。
+## 3. 验证安装（启动 Dashboard）
 
-### 配置网络环境
-安装好 OpenClaw 以后需要确定网络环境：
-- **场景匹配**：建议通讯工具和大模型处于同一个网络场景。
-- **模型建议**：海外大模型推荐配合海外通讯工具使用；内地大模型（如飞书）推荐配合内地模型 API。
-- **版本差异**：请注意内地模型 API 平台和通讯工具的版本区分（例如：飞书 vs. Lark）。
+安装完成后，建议**先不要配置通讯工具**，直接启动 Dashboard 验证核心服务是否正常：
 
-*目前作者尚未尝试本地大模型，后续可能进行尝试。*
-
-### 开始配置
-选好模型和通讯平台后，运行配置引导：
-
-```shell
-openclaw onboard
-```
-
-## 4. 验证安装
-
-如果你想快速跑起来，可以先不配置通讯工具，直接在本地 `127.0.0.1:18789` 端口进行交互。拿到模型 API 密钥后，选择对应的厂商和模型版本即可。
-
-### 启动 Dashboard
-运行以下命令启动面板：
-
-```shell
+**在 Ubuntu 终端中执行：**
+```bash
 openclaw dashboard
 ```
 
-执行后会返回一个带验证的内网 URL，直接在浏览器中访问即可。
+执行后会返回一个带验证 Token 的内网 URL（例如 `http://127.0.0.1:18789/...`）。在浏览器打开该地址，如果能正常看到管理界面，说明基础安装成功。
+
+## 4. 配置 OpenClaw (Onboard)
+
+验证基础功能正常后，即可运行配置引导来接入模型 API 和通讯工具：
+
+**在 Ubuntu 终端中执行：**
+```bash
+openclaw onboard
+```
+
+### 配置建议
+- **场景匹配**：建议通讯工具和大模型处于同一个网络场景（例如：海外大模型配 Discord/Lark；内地模型配飞书）。
+- **海外工具优化**：如果你使用 Discord、Telegram 等工具，务必在代理工具中开启 **TUN 模式** 以保证实时通讯。
+- **模型选择**：参考 [模型评分网站](https://artificialanalysis.ai/leaderboards/models) 选择适合的模型。
 
